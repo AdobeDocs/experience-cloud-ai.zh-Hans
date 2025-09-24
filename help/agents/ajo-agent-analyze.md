@@ -4,9 +4,9 @@ description: Journey Agent分析技能的综合指南，使用户能够分析营
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 56dbe826fc73cbf699f08b12014b2b73d2bab71b
+source-git-commit: cf29a28477881b400b32b4623ccff2e626010e10
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '986'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Journey Agent将使Journey Optimizer用户能够使用自然语言界面分析�
 >Journey Agent适用于有权访问AI Assistant的所有客户。 但是，您需要以下权限才能完全使用Journey Agent功能。
 >
 >**查看历程**：此权限允许您使用Journey Agent直接在AI助手中查看历程见解。
->&#x200B;>**管理历程**：“收件人”权限允许您使用Journey Agent直接在AI助手中创建新旅程。
->&#x200B;>**查看区段**：此权限允许您使用Journey Agent直接在AI助手中查看受众分析。
->&#x200B;>**管理区段**：“收件人”权限允许您使用Journey Agent直接在AI Assistant中创建新受众。
+>>**管理历程**：“收件人”权限允许您使用Journey Agent直接在AI助手中创建新旅程。
+>>**查看区段**：此权限允许您使用Journey Agent直接在AI助手中查看受众分析。
+>>**管理区段**：“收件人”权限允许您使用Journey Agent直接在AI Assistant中创建新受众。
 
 AJO代理的![示例](./images/ajo-agent/ajo-agent-sample.png)
 
@@ -62,7 +62,7 @@ Journey Agent分析技能提供了一系列可用于优化营销工作的功能�
 
 ## 范围和范围外技能
 
-### 作用域中的&#x200B;**&#x200B;**
+### 作用域中的&#x200B;****
 
 Journey Agent Analyze支持以下功能：
 
@@ -105,7 +105,10 @@ Journey Agent Analyze支持以下功能：
 
 ### 流失分析
 
-
+- “我想按节点分析7月4日营销活动旅程的流失。”
+- “为7月4日营销活动的历程执行流失分析。”
+- “在‘七月四日’营销活动的历程中，用户档案丢失情况如何？”
+- “展示7月4日营销活动在旅程中用户流失的位置。”
 
 ### 冲突分析提示
 
