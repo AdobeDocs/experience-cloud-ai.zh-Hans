@@ -1,24 +1,31 @@
 ---
-title: Journey Agent分析技能概述和用户指南
+title: 历程分析座席技能概述和用户指南
 description: Journey Agent分析技能的综合指南，使用户能够分析营销历程、检测问题、揭示见解并优化客户参与。
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-hide: true
-hidefromtoc: true
-source-git-commit: 3bab2928fba6d06785797630e405b216cc080fd2
+source-git-commit: 56dbe826fc73cbf699f08b12014b2b73d2bab71b
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '937'
 ht-degree: 0%
 
 ---
 
 
-# Journey Agent分析：技能概述和用户指南
+# 历程分析代理：技能概述和用户指南
 
 ## 概述
 
-Journey Agent将使Journey Optimizer用户能够使用自然语言界面创建、分析和优化历程。 借助Journey Agent，从业者可以快速构建历程，检测和解决计划或受众冲突，分析绩效和流失点，并确定表现最佳的历程以复制到未来的营销活动。 它让实践者能够制定数据驱动型决策，提高客户参与度并简化历程编排。
+Journey Agent将使Journey Optimizer用户能够使用自然语言界面分析和优化历程。 借助Journey Agent，从业者可以快速识别和解决计划和/或受众冲突，检测历程中的用户放弃点并提供见解或建议。 它让实践者能够制定数据驱动型决策，提高客户参与度并简化历程编排。
+
+>[!AVAILABILITY]
+>
+>Journey Agent适用于有权访问AI Assistant的所有客户。 但是，您需要以下权限才能完全使用Journey Agent功能。
+>
+>**查看历程**：此权限允许您使用Journey Agent直接在AI助手中查看历程见解。
+>>**管理历程**：“收件人”权限允许您使用Journey Agent直接在AI助手中创建新旅程。
+>>**查看区段**：此权限允许您使用Journey Agent直接在AI助手中查看受众分析。
+>>**管理区段**：“收件人”权限允许您使用Journey Agent直接在AI Assistant中创建新受众。
 
 AJO代理的![示例](./images/ajo-agent/ajo-agent-sample.png)
 
@@ -50,15 +57,18 @@ Journey Agent分析技能提供了一系列可用于优化营销工作的功能�
 
    - 基于提示的历程见解 — 有关历程的表面运营见解，即“显示所有实时历程”。
 
+对于其中每个分析，代理不仅会检测问题，还会提供&#x200B;**可操作的建议来解决问题**。
+
 
 ## 范围和范围外技能
 
-### 作用域中的&#x200B;**&#x200B;**
+### 作用域中的&#x200B;****
 
 Journey Agent Analyze支持以下功能：
 
 - **被动查询**：允许用户询问有关历程性能、受众使用情况和计划冲突的特定问题。
 - **与其他代理集成**：与Audience Agent和Data Insights Agent协作以进行更深入的分析。
+- **代理响应结构**：推理（解释逻辑）、分析摘要（突出显示关键点）、问题详细信息（描述问题）和推荐（建议后续步骤）。
 
 ### **超出范围**
 
@@ -92,6 +102,10 @@ Journey Agent Analyze支持以下功能：
 
 - “超过X个历程中使用了哪些受众？”
 - “使用[受众名称]受众列出所有历程。”
+
+### 流失分析
+
+
 
 ### 冲突分析提示
 
