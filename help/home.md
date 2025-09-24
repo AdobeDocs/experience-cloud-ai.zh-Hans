@@ -1,9 +1,9 @@
 ---
 title: Experience Cloud应用程序中的人工智能
 description: 了解Experience Cloud应用程序如何使用创作AI (GenAI)、AI Assistant和代理AI。
-source-git-commit: 860b0f2414dc006c23fedcd7b0e29727fc0641d4
+source-git-commit: 58cce845f525e7762f32379a8db5791b677ae54f
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -59,10 +59,9 @@ ht-degree: 0%
 
 使Journey Optimizer用户能够：
 
-- 使用自然语言创建、分析和优化历程
+- 使用自然语言分析和优化历程
 - 检测和解决计划或受众冲突
 - 分析性能和流失点
-- 识别复制方面性能最佳的历程
 
 #### 产品支持代理
 
