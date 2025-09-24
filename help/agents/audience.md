@@ -16,7 +16,7 @@ ht-degree: 0%
 >Audience Agent适用于有权访问AI Assistant的所有客户。 但是，您需要以下权限才能完全使用Audience Agent功能。
 >
 >**查看区段**：此权限允许您使用Audience Agent直接在AI助手中查看受众分析。
->>**管理区段**：“收件人”权限允许您使用Audience Agent直接在AI Assistant中创建新受众。
+>&#x200B;>**管理区段**：“收件人”权限允许您使用Audience Agent直接在AI Assistant中创建新受众。
 
 通过Audience Agent，您可以查看有关受众的分析，包括检测受众规模的显着变化、检测重复的受众、探索受众资源以及检索受众规模。
 
