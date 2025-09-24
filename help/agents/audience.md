@@ -1,7 +1,7 @@
 ---
 title: Audience Agent
 description: 了解如何使用Audience Agent创建受众、查看受众更改、检测重复的受众以及查看受众分析。
-source-git-commit: 6d1f6a8c6a97bbbad88c0dd8123fac7821f06754
+source-git-commit: d91aac948a6fef36949218004dc0481dc8f5cf7f
 workflow-type: tm+mt
 source-wordcount: '816'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 >Audience Agent适用于有权访问AI Assistant的所有客户。 但是，您需要以下权限才能完全使用Audience Agent功能。
 >
 >**查看区段**：此权限允许您使用Audience Agent直接在AI助手中查看受众分析。
->&#x200B;>**管理区段**：“收件人”权限允许您使用Audience Agent直接在AI Assistant中创建新受众。
+>>**管理区段**：“收件人”权限允许您使用Audience Agent直接在AI Assistant中创建新受众。
 
 通过Audience Agent，您可以查看有关受众的分析，包括检测受众规模的显着变化、检测重复的受众、探索受众资源以及检索受众规模。
 
@@ -33,7 +33,7 @@ AI Assistant中的Audience Agent支持以下用例：
 - 发现可用于定义受众的XDM字段
    - 凭借此技能，您可以根据上下文和相关性更轻松地识别要在受众中使用的正确字段
 
-Audience Agent当前&#x200B;**不支持**&#x200B;以下功能：
+Audience Agent当前&#x200B;**不**&#x200B;支持以下功能：
 
 - 基于知识的受众创建
    - 基于知识的受众创建是指根据给定的属性和事件创建受众
