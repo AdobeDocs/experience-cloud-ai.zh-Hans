@@ -1,7 +1,7 @@
 ---
 title: AI助手提示库
 description: 了解在查询AI Assistant时可以使用的各种提示和提示模式。
-source-git-commit: c9909616697ef319a307b5c8a1ee135204347844
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '811'
 ht-degree: 3%
@@ -133,3 +133,4 @@ ht-degree: 3%
 
 - “我的E-12345的最新情况是什么？”
 - “票证E-67890有什么更新？”
+

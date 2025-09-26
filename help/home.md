@@ -1,7 +1,7 @@
 ---
 title: Experience Cloud 应用程序中的 AI
 description: 了解 Experience Cloud 应用程序如何使用生成式 AI、AI 助手和代理式 AI。
-source-git-commit: 06d80a7166dd9506cec570a79ed5eba4c2b5fe3c
+source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 3%
@@ -107,4 +107,3 @@ AI Assistant构建时以隐私、安全和治理为重点：
 - 提交任何问题或不准确的反馈
 
 本指南提供了在Experience Cloud应用程序中有效使用AI功能所需的一切，从基本交互到高级代理编排和专用工作流。
-
