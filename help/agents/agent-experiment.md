@@ -1,11 +1,9 @@
 ---
 title: 试验代理
 description: 了解如何使用试验代理
-hide: true
-hidefromtoc: true
-source-git-commit: 352ba791195eca7f68e6d317e0f2449d6ededeb2
+source-git-commit: 0069a97bcb35f609019ec32f263175a36525161a
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '506'
 ht-degree: 2%
 
 ---
@@ -18,7 +16,7 @@ ht-degree: 2%
 >
 >**查看试验**：此权限允许您使用试验代理直接在AI Assistant中查看试验见解。
 >
->**管理试验元数据**：目标权限允许您使用试验代理直接在AI助手中创建新试验。
+>**管理试验元数据**：此权限允许您使用试验代理直接在AI Assistant中创建新试验。
 
 ## 概述
 
