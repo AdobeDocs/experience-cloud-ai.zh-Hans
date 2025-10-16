@@ -16,13 +16,13 @@ Adobe Experience Platform中的AI助手以隐私、安全和治理为原则。
 
 * 目前，AI助手没有使用任何个人数据，即使用于培训目的也是如此。
 * AI助手不知道消费者数据。
-* AI助手将遵循所有现有的[访问控制](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home)策略。
+* AI助手将遵循所有现有的[访问控制](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/home)策略。
 
    * 任何基于属性的新访问控制策略在最多24小时&amp;amp；ast；之后反映在AI Assistant中；
 
 * 必须向您授予显式权限才能与AI助手交互。
 
-   * 您可以使用[权限UI](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/browse)为Experience Platform和Journey Optimizer设置不同的权限，也可以使用[Admin Console](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/browse)为Customer Journey Analytics分配权限。
+   * 您可以使用[权限UI](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/abac/permissions-ui/browse)为Experience Platform和Journey Optimizer设置不同的权限，也可以使用[Admin Console](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/access-control/ui/browse)为Customer Journey Analytics分配权限。
    * 权限是细粒度的，沙盒管理员可以配置哪些用户可以询问不同类别的问题（使用AI助手基于产品知识的问题或有关操作见解的问题）。
 
 * 在与Adobe Experience Platform Healthcare Shield结合使用时，AI Assistant是HIPAA就绪功能。
