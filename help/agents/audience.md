@@ -1,15 +1,15 @@
 ---
-title: Audience Agent
+title: Audience 代理
 description: 了解如何使用Audience Agent创建受众、查看受众更改、检测重复的受众以及查看受众分析。
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Audience Agent
+# Audience 代理
 
 >[!AVAILABILITY]
 >

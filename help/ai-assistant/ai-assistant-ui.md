@@ -4,11 +4,11 @@ description: 了解如何在用户界面中访问和使用AI Assistant。
 source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
 workflow-type: tm+mt
 source-wordcount: '1843'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# AI助手
+# AI 助手
 
 AI Assistant是一种智能的对话式、创新型人工智能工具，可在基于Adobe Experience Platform的应用程序中提高工作效率并重新定义工作。 您可以使用AI Assistant访问Adobe Experience Platform代理和其他AI功能。
 
@@ -16,7 +16,7 @@ AI Assistant是一种智能的对话式、创新型人工智能工具，可在�
 
 ![全屏的AI助手主界面。](./images/ai-assistant/blank-home.png)
 
-## 访问AI助手
+## 访问 AI 助手
 
 可通过多种方式访问AI助手。
 
