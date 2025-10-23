@@ -1,10 +1,10 @@
 ---
 title: Experience Cloud 应用程序中的 AI
 description: 了解 Experience Cloud 应用程序如何使用生成式 AI、AI 助手和代理式 AI。
-source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
+source-git-commit: a19c891d1a17c9112aff3d9a52daa94ad162a553
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 16%
+source-wordcount: '802'
+ht-degree: 13%
 
 ---
 
@@ -20,11 +20,12 @@ ht-degree: 16%
 
 **主要功能：**
 
-- **对话界面**：不同工作流首选项的全屏视图和边栏视图选项
-- **发现提示**：按类别组织的预配置提示（学习、分析、优化）
-- **上下文设置**：配置目标响应的应用程序、沙盒和数据视图设置
-- **数据可视化**：用于数据见解的交互式图表和图形
-- **响应验证**： Source引用、推理解释和反馈机制
+- **对话界面**：您可以选择全屏界面和边栏视图界面，以符合您的工作流首选项。
+- **发现提示**： AI Assistant提供预配置的提示，这些提示按“学习”、“分析”和“优化”等类别组织。
+- **上下文设置**：您可以配置应用程序、沙盒和数据视图设置，以接收根据您的需求定制的响应。
+- **数据可视化**：该工具提供交互式图表和图形，使您能够从数据中获取见解。
+- **响应验证**：所有响应都包含源引用、AI推理解释以及提供反馈的机制。
+
 
 ### Agent Orchestrator
 
@@ -40,36 +41,36 @@ ht-degree: 16%
 
 #### Audience 代理
 
-提供有关受众的分析，包括：
+Audience Agent提供了有关受众的分析，包括：
 
-- 检测受众规模的显着变化
-- 识别重复受众
-- 探索受众库存
-- 检索受众大小
+- 检测受众规模的显着变化。
+- 标识重复的受众。
+- 探索受众库存。
+- 检索受众大小。
 
 #### Data Insights Agent
 
-此代理在Customer Journey Analytics中可用：
+Customer Journey Analytics中的Data Insights Agent提供：
 
-- 使用自然语言回答有关您的数据的问题
-- 在Analysis Workspace中构建相关可视化图表
-- 使用数据视图中的组件和实际数据
+- 使用自然语言回答有关您的数据的问题。
+- 在Analysis Workspace中构建相关可视化图表。
+- 使用来自数据视图和实际数据的组件。
 
 #### Journey Agent
 
-使Journey Optimizer用户能够：
+Journey Agent使Adobe Journey Optimizer用户能够：
 
-- 使用自然语言分析和优化历程
-- 检测和解决计划或受众冲突
-- 分析性能和流失点
+- 使用自然语言分析和优化历程。
+- 检测并解决计划或受众冲突。
+- 分析性能和流失点。
 
 #### 产品支持代理
 
-提供自助调试和故障排除：
+使用产品支持代理进行自助调试和故障排除：
 
-- 在不离开工作流的情况下对Adobe Experience Platform功能进行故障排除
-- 通过AI助手交互的上下文创建支持工单
-- 通过AI助手检查票证更新
+- 在不离开工作流的情况下对Adobe Experience Platform功能进行故障排除。
+- 通过AI助手交互的上下文创建支持工单。
+- 通过AI助手检查票证更新。
 
 ## 快速入门
 
@@ -77,33 +78,30 @@ ht-degree: 16%
 
 要使用AI助手和Experience Platform代理，您的Adobe管理员需要设置适当的权限：
 
-- **Real-Time CDP和Adobe Journey Optimizer**：操作问题需要“启用AI助手”权限和“查看操作分析”权限
-- **Customer Journey Analytics**：通过Customer Journey Analytics访问控制访问产品知识和数据分析问题
-- **Adobe Experience Manager**：通过Adobe Admin Console进行访问
+- 要在Real-Time CDP和Adobe Journey Optimizer中使用AI助手，您需要“启用AI助手”权限以及“查看操作分析”权限才能访问操作问题。
+- Customer Journey Analytics中的AI助手通过Customer Journey Analytics访问控制进行管理，可让您询问产品知识和数据分析问题。
+- 对于Adobe Experience Manager，您可以通过Adobe Admin Console中设置的权限访问AI助手。
 
 ### 隐私和安全性
 
 AI Assistant构建时以隐私、安全和治理为重点：
 
-- 培训不使用任何个人数据
-- 所有现有的访问控制策略都有效
-- 与Adobe Experience Platform Healthcare Shield一起使用时支持HIPAA
-- 交互日志的30天保留策略
-- 特定于沙盒的数据隔离
+- 培训不使用任何个人数据。
+- 所有现有的访问控制策略都有效。
+- 与Adobe Experience Platform Healthcare Shield一起使用时支持HIPAA。
+- 交互日志的30天保留策略。
+- 特定于沙盒的数据隔离。
 
 ## 最佳实践
 
-- 在提示中指定&#x200B;**以获取目标分析**
-- **使用源引用和推理解释验证响应**
-- **使用上下文设置**&#x200B;以确保相关数据源
-- **提供反馈**&#x200B;以帮助提高AI助手性能
-- **合并来自多个代理的见解**&#x200B;以进行综合分析
+要从AI Assistant体验中获取最大价值，请遵循以下最佳实践：
+
+- 在提示中指定&#x200B;****&#x200B;以从AI助手获取有针对性的相关见解。
+- **通过查看源引用和AI助手提供的推理解释来验证响应**。
+- **使用上下文设置**&#x200B;以确保您的问题使用了最相关的数据源。
+- **提供反馈**&#x200B;以帮助随着时间的推移提高AI Assistant的性能和准确性。
+- **合并来自多个代理的见解**，以获得更全面、更全面的分析。
 
 ## 法律注意事项
 
-- AI助手当前仅支持英语
-- 始终验证响应，因为语言模型可能会出错
-- 回顾推理步骤及解释
-- 提交任何问题或不准确的反馈
-
-本指南提供了在Experience Cloud应用程序中有效使用AI功能所需的一切，从基本交互到高级代理编排和专用工作流。
+在使用AI助手时，务必要了解关键的法律和实际注意事项。 目前，AI Assistant仅支持英文回复。 务必小心验证提供的信息，因为语言模型偶尔会出错。 利用回答中包含的推理步骤和解释来更好地理解您收到的答案。 如果您遇到任何问题或不准确之处，请提交反馈以帮助逐渐改进AI助手。

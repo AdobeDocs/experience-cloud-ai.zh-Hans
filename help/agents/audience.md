@@ -1,7 +1,7 @@
 ---
 title: Audience 代理
 description: 了解如何使用Audience Agent创建受众、查看受众更改、检测重复的受众以及查看受众分析。
-source-git-commit: 2c50a4abaf9606e3c7887073053d0cde3ec761e5
+source-git-commit: f2b5bd1a59055a8ca6785abfc2d0a336eea7fd98
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 2%
@@ -20,6 +20,8 @@ ht-degree: 2%
 >**管理区段**：“收件人”权限允许您使用Audience Agent直接在AI助手中创建新受众。
 
 通过Audience Agent，您可以查看有关受众的分析，包括检测受众规模的显着变化、检测重复的受众、探索受众资源以及检索受众规模。
+
+>[!SLIDE](audience-agent-overview)
 
 ## 支持的用例
 

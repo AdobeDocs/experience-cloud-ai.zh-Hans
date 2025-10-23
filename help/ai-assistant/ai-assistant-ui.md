@@ -1,7 +1,7 @@
 ---
 title: AI 助手 UI 指南
 description: 了解如何在用户界面中访问和使用AI Assistant。
-source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
+source-git-commit: a19c891d1a17c9112aff3d9a52daa94ad162a553
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 1%
@@ -15,6 +15,8 @@ AI Assistant是一种智能的对话式、创新型人工智能工具，可在�
 阅读本指南，了解如何使用AI Assistant。
 
 ![全屏的AI助手主界面。](./images/ai-assistant/blank-home.png)
+
+>[!SLIDE](agent-orchestrator-ui)
 
 ## 访问 AI 助手
 
