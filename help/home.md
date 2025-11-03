@@ -1,9 +1,9 @@
 ---
 title: Experience Cloud 应用程序中的 AI
 description: 了解 Experience Cloud 应用程序如何使用生成式 AI、AI 助手和代理式 AI。
-source-git-commit: a19c891d1a17c9112aff3d9a52daa94ad162a553
+source-git-commit: 8c05562121071874002afd6d248f16186616da55
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '830'
 ht-degree: 13%
 
 ---
@@ -48,6 +48,8 @@ Audience Agent提供了有关受众的分析，包括：
 - 探索受众库存。
 - 检索受众大小。
 
+有关详细信息，请阅读[Audience Agent文档](./agents/audience.md)。
+
 #### Data Insights Agent
 
 Customer Journey Analytics中的Data Insights Agent提供：
@@ -56,13 +58,15 @@ Customer Journey Analytics中的Data Insights Agent提供：
 - 在Analysis Workspace中构建相关可视化图表。
 - 使用来自数据视图和实际数据的组件。
 
-#### Journey Agent
+#### 历程分析代理
 
-Journey Agent使Adobe Journey Optimizer用户能够：
+历程分析代理使Adobe Journey Optimizer用户能够：
 
 - 使用自然语言分析和优化历程。
 - 检测并解决计划或受众冲突。
 - 分析性能和流失点。
+
+有关详细信息，请阅读[历程分析代理文档](./agents/ajo-agent-analyze.md)。
 
 #### 产品支持代理
 
@@ -71,6 +75,8 @@ Journey Agent使Adobe Journey Optimizer用户能够：
 - 在不离开工作流的情况下对Adobe Experience Platform功能进行故障排除。
 - 通过AI助手交互的上下文创建支持工单。
 - 通过AI助手检查票证更新。
+
+有关详细信息，请阅读[产品支持代理文档](./agents/product-support.md)。
 
 ## 快速入门
 
@@ -96,7 +102,7 @@ AI Assistant构建时以隐私、安全和治理为重点：
 
 要从AI Assistant体验中获取最大价值，请遵循以下最佳实践：
 
-- 在提示中指定&#x200B;**&#x200B;**&#x200B;以从AI助手获取有针对性的相关见解。
+- 在提示中指定&#x200B;****&#x200B;以从AI助手获取有针对性的相关见解。
 - **通过查看源引用和AI助手提供的推理解释来验证响应**。
 - **使用上下文设置**&#x200B;以确保您的问题使用了最相关的数据源。
 - **提供反馈**&#x200B;以帮助随着时间的推移提高AI Assistant的性能和准确性。
