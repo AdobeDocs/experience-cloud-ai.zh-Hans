@@ -3,9 +3,9 @@ description: 了解如何使用Customer Journey Analytics中的Data Insights Age
 title: 在Customer Journey Analytics中使用Data Insights Agent可视化数据
 role: User, Admin
 solution: Customer Journey Analytics
-source-git-commit: 0e366e182cfccf2c081f6e5689c02b650148a7b9
+source-git-commit: 04a73ac0f705cd3a2184fb2f8599aff85b7bb5e5
 workflow-type: tm+mt
-source-wordcount: '2497'
+source-wordcount: '2499'
 ht-degree: 1%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 >[!AVAILABILITY]
 >
->Data Insights Agent在有限的时间内向符合条件的客户提供。 对Data Insights Agent的访问将于2026年2月28日结束。 要继续使用Data Insights Agent而不中断，请联系您的Adobe客户代表以了解有关许可Data Insights Agent的更多信息。
+>Data Insights Agent在有限的时间内向符合条件的客户提供。 Data Insights Agent的访问截止日期为2026年2月28日。 要继续使用Data Insights Agent而不中断，请联系您的Adobe客户代表以了解有关许可Adobe Experience Platform Agent Orchestrator的更多信息。
 
-Data Insights Agent可从Customer Journey Analytics中的[AI Assistant](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)访问，它是一个创作AI对话代理，可快速高效地回答有关您数据的问题。 它使用数据视图中的组件并使用实际数据在Analysis Workspace中构建相关可视化图表。
+Data Insights Agent可从Customer Journey Analytics中的[AI Assistant](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)访问，它是一个创作AI对话代理，可快速高效地回答有关您数据的问题。 它使用数据视图中的组件并使用实际数据在Analysis Workspace中构建相关可视化图表。
 
 使用Data Insights Agent在Analysis Workspace中解答以数据为中心的问题，可以节省您原本要在Analysis Workspace中手动构建可视化并熟悉数据视图组件所花费的无数时间。
 
@@ -52,7 +52,7 @@ AI助手中的![Data Insights Agent](images/cja-agent//cja-ai-asst-da.gif)
 
 * **权限**：必须先在[!UICONTROL Adobe Admin Console]中授予必要的权限，用户才能访问Data Insights Agent。
 
-  要授予权限，[产品配置文件管理员](https://helpx.adobe.com/cn/enterprise/using/manage-product-profiles.html)必须在[!UICONTROL Admin Console]中完成以下步骤：
+  要授予权限，[产品配置文件管理员](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html)必须在[!UICONTROL Admin Console]中完成以下步骤：
 
    1. 在&#x200B;**[!UICONTROL Admin Console]**&#x200B;中，选择&#x200B;**[!UICONTROL 产品]**&#x200B;选项卡以查看&#x200B;**[!UICONTROL 所有产品和服务]**&#x200B;页面。
    1. 选择&#x200B;**[!UICONTROL Customer Journey Analytics]**。
@@ -71,7 +71,7 @@ AI助手中的![Data Insights Agent](images/cja-agent//cja-ai-asst-da.gif)
 
    1. 选择&#x200B;**[!UICONTROL 保存]**&#x200B;以保存权限。
 
-  有关访问控制的详细信息，请参阅[访问控制](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/technotes/access-control#access-control)。
+  有关访问控制的详细信息，请参阅[访问控制](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control#access-control)。
 
 * **数据视图访问**：必须为Data Insights Agent启用数据视图。
 
@@ -254,7 +254,7 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 
 >[!MORELIKETHIS]
 >
->[组件设置](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
->[数据字典](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
->[批准计算量度](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
->[共享区段](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/segments/seg-share)
+>[组件设置](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/component-settings/overview)
+>[数据字典](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
+>[批准计算量度](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
+>[共享区段](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-components/segments/seg-share)
