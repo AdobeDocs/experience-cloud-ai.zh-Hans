@@ -1,9 +1,9 @@
 ---
 title: 产品支持代理
 description: 了解如何在 AI 助手中使用产品支持代理来简化故障排查和客户支持工单提交流程。
-source-git-commit: 8c05562121071874002afd6d248f16186616da55
+source-git-commit: adf65e0d4c623fbd74645006939702b64b0c1fdd
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '408'
 ht-degree: 5%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 5%
 
 >[!AVAILABILITY]
 >
->**有限时间访问**：我们希望您喜欢使用产品支持代理。 对此功能的访问将于2026年2月28日结束。 要继续使用产品支持代理而不中断，请联系您的Adobe客户代表以了解有关授予产品支持代理许可证的更多信息。
+>产品支持代理仅在有限时间内向符合条件的客户提供。 对产品支持代理的访问将于2026年2月28日结束。 要在此日期之后继续使用产品支持代理而不中断，请联系您的Adobe客户代表以了解有关许可Adobe Experience Platform Agent Orchestrator的更多信息。
 
 产品支持代理是AI Assistant的一项自助调试和故障排除功能，可供Adobe Experience Platform功能和应用程序使用。
 
@@ -61,5 +61,5 @@ ht-degree: 5%
 
 有关更多信息，请观看以下视频，了解如何使用产品支持代理在不离开工作流程的情况下无缝进行故障排除。
 
->[!VIDEO](https://video.tv.adobe.com/v/3443193?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443183?learn=on)
 
