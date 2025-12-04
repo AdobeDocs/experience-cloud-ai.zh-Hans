@@ -1,9 +1,9 @@
 ---
 title: 试验代理
 description: 了解如何使用试验代理
-source-git-commit: 0069a97bcb35f609019ec32f263175a36525161a
+source-git-commit: 5694f15d82081eed8e762fea8aabc3da1e265b04
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '535'
 ht-degree: 3%
 
 ---
@@ -12,15 +12,21 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->试验代理适用于所有有权访问AI Assistant的客户。 但是，您需要以下权限才能完全使用试验代理功能。
+>试验代理适用于已购买Journey Optimizer Experimentation Accelerator付费许可证并与Adobe Target或Adobe Journey Optimizer无缝集成的所有客户。
 >
->**查看试验**：此权限允许您使用试验代理直接在AI Assistant中查看试验见解。
->
->**管理试验元数据**：此权限允许您使用试验代理直接在AI Assistant中创建新试验。
+>[了解有关Journey Optimizer Experimentation Accelerator的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experimentation-accelerator/using/overview)
 
 ## 概述
 
 **试验代理**&#x200B;是一种AI支持的工具，可更新您跨网站、电子邮件、推送消息和应用程序运行和管理数字试验的方式。 **实验代理**&#x200B;构建于Adobe Experience Platform AI平台和实验工具之上，可帮助您更有效地运行实验、组织业务目标和生成可操作的见解，并突出显示哪些有效、哪些无效以及下一步在何处实验。
+
+为了充分利用试验代理功能，请访问以下权限。
+
+* **查看试验**：此权限允许您使用试验代理直接在AI助手中查看试验见解。
+
+* **管理试验元数据**：此权限允许您使用试验代理直接在AI Assistant中创建新试验。
+
+➡️ [请参阅Journey Optimizer Experimentation Accelerator文档以了解详情](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
 作为Experimentation Accelerator功能的一部分，代理提供：
 
