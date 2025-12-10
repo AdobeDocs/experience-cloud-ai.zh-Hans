@@ -210,7 +210,7 @@ Audience Agent当前&#x200B;**不**&#x200B;支持以下功能：
 homeAddress.state.equals("California", false)
 ```
 
-有关PQL的更多信息，请阅读[PQL概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)。
+有关PQL的更多信息，请阅读[PQL概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/pql/overview)。
 
 +++
 
