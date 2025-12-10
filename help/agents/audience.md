@@ -1,9 +1,9 @@
 ---
 title: Audience 代理
 description: 了解如何使用Audience Agent创建受众、查看受众更改、检测重复的受众以及查看受众分析。
-source-git-commit: f2b5bd1a59055a8ca6785abfc2d0a336eea7fd98
+source-git-commit: ca3766477459fb13170d176057a3ea9fbb791b29
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '1204'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,9 @@ AI Assistant中的Audience Agent支持以下用例：
    - 发现可用于定义受众的XDM字段
 - 检测受众规模的显着变化
    - 这让您能够找到突然增加或减少的受众，从而更好地分析潜在的市场变化
+- 受众创建
+   - 凭借此技能，您可以根据给定的属性和事件创建受众
+   - 此外，通过这项技能，可在创建受众之前估计受众的潜在大小，从而可在最有效的受众准备好激活之前快速对其进行迭代
 
 <!-- - Find your audience size and detect significant changes in audience size
   - This lets you find audiences that have suddenly grown or shrunk, letting you better analyze potential market changes
@@ -46,10 +49,6 @@ AI Assistant中的Audience Agent支持以下用例：
 
 Audience Agent当前&#x200B;**不**&#x200B;支持以下功能：
 
-- 基于知识的受众创建
-   - 基于知识的受众创建是指根据给定的属性和事件创建受众
-   - 此外，您可以在创建受众之前估计受众的潜在大小。 这样，您可以在最有效的受众准备好激活之前，快速对其进行迭代
-   - 即将支持此功能
 - 基于目标的受众探索
    - 通过基于目标的受众探索，您可以通过应用机器学习模型（如购买或转化倾向），发现与业务目标一致的相关数据集和用户档案。
 
@@ -178,6 +177,80 @@ Audience Agent当前&#x200B;**不**&#x200B;支持以下功能：
 ![AI Assistant声明增长最快的受众的名称，以及当前大小和增长百分比。](./images/audience/fastest-growing.png)
 
 +++
+
+### 创建受众
+
+使用Audience Agent创建受众时，AI助手将指导您完成计划。 例如，您可以请求“创建一个由住在加利福尼亚的人组成的受众”。 然后，AI Assistant会列出创建受众的计划。
+
++++ 响应
+
+![AI助手显示创建受众的计划。](./images/audience/audience-create-plan.png)
+
++++
+
+该计划包括三个步骤：
+
+1. [识别受众特征](#identify)
+2. [估计受众规模](#estimate)
+3. [创建并保留新受众](#create)
+
+#### 识别受众特征 {#identify}
+
+![计划的步骤1，用于识别受众特征。](./images/audience/plan-step-1.png){align="center" width="80%"}
+
+接受计划后，AI Assistant将根据您的初始查询获取受众特征。
+
++++ 响应
+
+![基于用户查询的受众定义。](./images/audience/audience-create-definition.png)
+
+对于此查询，AI Assistant会生成相关的Profile Query Language (PQL)，以查找居住在加利福尼亚的人员。 在此使用案例中，PQL查询将如下所示：
+
+```sql
+homeAddress.state.equals("California", false)
+```
+
+有关PQL的更多信息，请阅读[PQL概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)。
+
++++
+
+如果AI助手的受众定义正确，则可以批准并继续下一步骤。
+
+#### 估计受众规模 {#estimate}
+
+![计划的步骤2，用于估计潜在受众的大小。](./images/audience/plan-step-2.png){align="center" width="80%"}
+
+在批准识别的受众特征后，AI助手将估计潜在受众的大小和受众定义详细信息。
+
++++ 响应
+
+![显示潜在受众的样本估计值。 将显示估计的大小和区段定义。](./images/audience/audience-create-estimate.png)
+
++++
+
+如果预计的大小看起来正确，您可以批准并继续下一步骤。
+
+#### 创建和保留新受众 {#create}
+
+![计划的步骤3，即完成创建受众。](./images/audience/plan-step-3.png){align="center" width="80%"}
+
+最后，如果特征和受众规模看起来是正确的，则可以批准或拒绝受众的创建。
+
++++ 响应
+
+首先，您可以通过提供的数据网格查看建议的受众。
+
+![将显示审核屏幕。](./images/audience/audience-create-review.png)
+
+如果受众看起来是正确的，您可以通过选择&#x200B;**[!UICONTROL 创建]**&#x200B;来接受建议，以完成创建受众。
+
+![显示受众的完整建议。](./images/audience/audience-create-proposal.png)
+
++++
+
+现已创建受众。
+
+![已接受受众建议，并且已创建受众。](./images/audience/audience-finish-create.png){align="center" width="80%"}
 
 ## 后续步骤
 
