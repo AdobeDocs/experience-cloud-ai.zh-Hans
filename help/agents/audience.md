@@ -1,9 +1,9 @@
 ---
 title: Audience 代理
 description: 了解如何使用Audience Agent创建受众、查看受众更改、检测重复的受众以及查看受众分析。
-source-git-commit: ca3766477459fb13170d176057a3ea9fbb791b29
+source-git-commit: effd4fe4123953b6af375dfb46fcc669b2e35df1
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1229'
 ht-degree: 2%
 
 ---
@@ -180,6 +180,10 @@ Audience Agent当前&#x200B;**不**&#x200B;支持以下功能：
 
 ### 创建受众
 
+>[!AVAILABILITY]
+>
+>仅当您是Agent Orchestrator Explorer程序的一部分时，才能使用“创建受众”技能。 有关更多信息，请联系Adobe客户关怀部门。
+
 使用Audience Agent创建受众时，AI助手将指导您完成计划。 例如，您可以请求“创建一个由住在加利福尼亚的人组成的受众”。 然后，AI Assistant会列出创建受众的计划。
 
 +++ 响应
@@ -210,7 +214,7 @@ Audience Agent当前&#x200B;**不**&#x200B;支持以下功能：
 homeAddress.state.equals("California", false)
 ```
 
-有关PQL的更多信息，请阅读[PQL概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/pql/overview)。
+有关PQL的更多信息，请阅读[PQL概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)。
 
 +++
 
