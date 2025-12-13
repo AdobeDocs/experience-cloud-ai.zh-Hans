@@ -26,7 +26,7 @@ ht-degree: 3%
 
 * **管理试验元数据**：此权限允许您使用试验代理直接在AI Assistant中创建新试验。
 
-➡️ [请参阅Journey Optimizer Experimentation Accelerator文档以了解详情](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
+➡️ [请参阅Journey Optimizer Experimentation Accelerator文档以了解详情](https://experienceleague.adobe.com/zh-hans/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
 作为Experimentation Accelerator功能的一部分，代理提供：
 
