@@ -1,9 +1,9 @@
 ---
 title: Experience Cloud 应用程序中的 AI
 description: 了解 Experience Cloud 应用程序如何使用生成式 AI、AI 助手和代理式 AI。
-source-git-commit: 8c05562121071874002afd6d248f16186616da55
+source-git-commit: 0e3839f829efc5670c235435d49ed5e49da2ed13
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '829'
 ht-degree: 13%
 
 ---
@@ -66,7 +66,7 @@ Customer Journey Analytics中的Data Insights Agent提供：
 - 检测并解决计划或受众冲突。
 - 分析性能和流失点。
 
-有关详细信息，请阅读[历程分析代理文档](./agents/ajo-agent-analyze.md)。
+有关详细信息，请阅读[Journey Agent文档](./agents/ajo-agent.md)。
 
 #### 产品支持代理
 
@@ -98,11 +98,11 @@ AI Assistant构建时以隐私、安全和治理为重点：
 - 交互日志的30天保留策略。
 - 特定于沙盒的数据隔离。
 
-## 最佳实践
+## 最佳做法
 
 要从AI Assistant体验中获取最大价值，请遵循以下最佳实践：
 
-- 在提示中指定&#x200B;**&#x200B;**&#x200B;以从AI助手获取有针对性的相关见解。
+- 在提示中指定&#x200B;****&#x200B;以从AI助手获取有针对性的相关见解。
 - **通过查看源引用和AI助手提供的推理解释来验证响应**。
 - **使用上下文设置**&#x200B;以确保您的问题使用了最相关的数据源。
 - **提供反馈**&#x200B;以帮助随着时间的推移提高AI Assistant的性能和准确性。

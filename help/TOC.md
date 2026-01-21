@@ -5,10 +5,10 @@ user-guide-description: 了解如何使用 AI 助手通过 Adobe Experience Plat
 description: 了解 Experience Cloud 中的 AI 助手。使用 Experience Cloud 中的 AI 提高您的产品知识并获得运营洞察。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 864002185f3745ca76180af192f616d1e5da0791
+source-git-commit: 0e3839f829efc5670c235435d49ed5e49da2ed13
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 65%
+source-wordcount: '80'
+ht-degree: 68%
 
 ---
 
@@ -26,7 +26,6 @@ ht-degree: 65%
    - [Audience 代理](./agents/audience.md)
    - [Data Insights Agent](./agents/cja-data-insights-agent.md)
    - [试验代理](./agents/agent-experiment.md)
-   - [历程分析代理](./agents/ajo-agent-analyze.md)
-   - [历程创建代理](./agents/ajo-agent-create.md)
+   - [Journey Agent](./agents/ajo-agent.md)
    - [产品支持代理](./agents/product-support.md)
 
