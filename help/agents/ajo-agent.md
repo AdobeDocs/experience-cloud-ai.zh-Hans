@@ -4,7 +4,7 @@ description: Journey Agent的综合指南，使用户能够使用Journey Optimiz
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: 0e3839f829efc5670c235435d49ed5e49da2ed13
+source-git-commit: 229d349d971ffaba3f2f2fb989e363d96a8d7a70
 workflow-type: tm+mt
 source-wordcount: '2147'
 ht-degree: 18%
@@ -22,9 +22,7 @@ Journey Agent包含两项主要技能：
 - **历程创建代理**：通过自然语言提示生成和配置营销历程
 - **历程分析代理**：分析历程、检测问题、揭示见解并优化客户参与
 
-&#x200B;---
-
-&#x200B;# 历程创建代理：技能概述和用户指南
+## 历程创建代理：技能概述和用户指南
 
 ## 概述
 
@@ -161,15 +159,13 @@ Journey Agent包含两项主要技能：
 - **规划消息内容**：在创建历程之前定义消息传递策略。
 - **考虑客户体验**：设计尊重客户偏好并避免过度沟通的历程流程。
 
-&#x200B;---
-
-&#x200B;# 历程分析代理：技能概述和用户指南
+## 历程分析代理：技能概述和用户指南
 
 ## 概述
 
 Journey Agent将使Journey Optimizer用户能够使用自然语言界面分析和优化历程。 借助Journey Agent，从业者可以快速识别和解决计划和/或受众冲突，检测历程中的用户放弃点并提供见解或建议。 它使从业者能够做出数据驱动的决策、提高客户参与度，并简化历程编排。
 
-在此[概述](https://experienceleague.adobe.com/zh-hans/slides/journey-agent-overview)中了解更多信息并快速发现代理。
+在此[概述](https://experienceleague.adobe.com/en/slides/journey-agent-overview)中了解更多信息并快速发现代理。
 
 >[!AVAILABILITY]
 >
@@ -310,8 +306,6 @@ Journey 代理分析支持以下功能：
 - **定义明确目标**：在分析历程之前，先确定明确的目标（例如提高保留率、增加转化率）。
 - **定期监测**：计划好定期查看历程表现，以识别趋势和异常。
 - **优化分段**：确保受众细分均衡，以避免疲劳以及最大限度地提高参与度。
-
-&#x200B;---
 
 ## 幻灯片和演示
 
