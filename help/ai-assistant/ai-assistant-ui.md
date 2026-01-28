@@ -1,7 +1,7 @@
 ---
 title: AI 助手 UI 指南
 description: 了解如何在用户界面中访问和使用AI Assistant。
-source-git-commit: a19c891d1a17c9112aff3d9a52daa94ad162a553
+source-git-commit: 0e7306c50fbb6913bfd08d9d31484ec1690be91d
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 1%
@@ -72,7 +72,7 @@ AI Assistant界面包括几个关键元素，可帮助您进行有效交互：
 
 本节概述AI Assistant用户界面中的主要功能和导航选项。 它介绍如何访问AI Assistant，描述了全屏视图和边栏视图中的布局和控制项，并介绍了对话、输入功能、自动完成、上下文设置和发现提示等关键工具。 以下部分提供了有关使用这些功能与AI Assistant交互并充分利用您的体验的详细指导。
 
-### 发现提示
+### 发现提示 {#discovery-prompts}
 
 您可以使用AI Assistant的发现功能来查看AI Assistant支持的常规主体（按实体分组）列表。 发现提示因您的起始点而异。
 
