@@ -1,9 +1,7 @@
 ---
 title: 面向Adobe Experience Platform代理使用的试用
 description: 了解Adobe Experience Platform Agent的免费试用版。
-hide: true
-hidefromtoc: true
-source-git-commit: d764d3f5ef2b5dcd18fd754298fae5e2b145805f
+source-git-commit: a94ab9a30900e2d3a8db44994a1cb51a5f9361ff
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 2%
@@ -25,7 +23,7 @@ ht-degree: 2%
 
 Adobe将自行决定您的试用资格。 目前拥有或以前拥有Adobe Experience Platform Agent Orchestrator促销活动许可证或Experience Platform Agents AI信用许可证的客户不符合试用资格。
 
-合格客户将获得最多10,000个AI积分的初始一次性权利，用于在[AI积分消耗量表](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption)中列出的任何工作组合(取决于您对Experience Cloud应用程序的现有许可证)。 您可以使用Adobe Experience Platform UI中的许可证使用情况仪表板跟踪您的AI积分。 有关详细信息，请阅读[许可证使用情况仪表板文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dashboards/guides/license-usage)。
+合格客户将获得最多10,000个AI积分的初始一次性权利，用于在[AI积分消耗量表](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption)中列出的任何工作组合(取决于您对Experience Cloud应用程序的现有许可证)。 您可以使用Adobe Experience Platform UI中的许可证使用情况仪表板跟踪您的AI积分。 有关详细信息，请阅读[许可证使用情况仪表板文档](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)。
 
 >[!IMPORTANT]
 >
