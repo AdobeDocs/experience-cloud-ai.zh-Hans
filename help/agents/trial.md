@@ -25,7 +25,7 @@ ht-degree: 2%
 
 Adobe将自行决定您的试用资格。 目前拥有或以前拥有Adobe Experience Platform Agent Orchestrator促销活动许可证或Experience Platform Agents AI信用许可证的客户不符合试用资格。
 
-合格客户将获得最多10,000个AI积分的初始一次性权利，用于在[AI积分消耗量表](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption)中列出的任何工作组合(取决于您对Experience Cloud应用程序的现有许可证)。 您可以使用Adobe Experience Platform UI中的许可证使用情况仪表板跟踪您的AI积分。 有关详细信息，请阅读[许可证使用情况仪表板文档](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)。
+合格客户将获得最多10,000个AI积分的初始一次性权利，用于在[AI积分消耗量表](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption)中列出的任何工作组合(取决于您对Experience Cloud应用程序的现有许可证)。 您可以使用Adobe Experience Platform UI中的许可证使用情况仪表板跟踪您的AI积分。 有关详细信息，请阅读[许可证使用情况仪表板文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dashboards/guides/license-usage)。
 
 >[!IMPORTANT]
 >
