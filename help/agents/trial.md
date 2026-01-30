@@ -23,7 +23,7 @@ ht-degree: 1%
 
 Adobe将自行决定您的试用资格。 目前拥有或以前拥有Adobe Experience Platform Agent Orchestrator促销活动许可证或Experience Platform Agents AI信用许可证的客户不符合试用资格。
 
-合格客户将获得最多10,000个AI积分的初始一次性权利，用于在[AI积分消耗量表](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption)中列出的任何工作组合(取决于您对Experience Cloud应用程序的现有许可证)。 您可以使用Adobe Experience Platform UI中的许可证使用情况仪表板跟踪您的AI积分。 有关详细信息，请阅读[许可证使用情况仪表板文档](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)。
+合格客户将获得最多10,000个AI积分的初始一次性权利，用于在[AI积分消耗量表](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption)中列出的任何工作组合(取决于您对Experience Cloud应用程序的现有许可证)。 您可以使用Adobe Experience Platform UI中的许可证使用情况仪表板跟踪您的AI积分。 有关详细信息，请阅读[许可证使用情况仪表板文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dashboards/guides/license-usage)。
 
 >[!IMPORTANT]
 >
@@ -69,7 +69,7 @@ Adobe Experience Platform代理使用限制试用版允许符合条件的客户�
 
 ### 谁可以查看使用情况以及如何查看？
 
-您可以使用Adobe Experience Platform UI中的许可证使用情况仪表板跟踪您的AI积分。 有关详细信息，请阅读[许可证使用情况仪表板文档](https://experienceleague.adobe.com/en/docs/experience-platform/dashboards/guides/license-usage)。
+您可以使用Adobe Experience Platform UI中的许可证使用情况仪表板跟踪您的AI积分。 有关详细信息，请阅读[许可证使用情况仪表板文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dashboards/guides/license-usage)。
 
 使用仪表板可查看您的AI信用使用情况和报表。 只有具有相应权限的管理员和用户才能查看您的使用情况信息。
 
