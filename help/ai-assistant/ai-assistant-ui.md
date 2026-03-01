@@ -1,10 +1,10 @@
 ---
 title: AI 助手 UI 指南
-description: 了解如何在用户界面中访问和使用AI Assistant。
+description: 了解如何在用户界面中访问和使用 AI 助手。
 source-git-commit: 0e7306c50fbb6913bfd08d9d31484ec1690be91d
 workflow-type: tm+mt
 source-wordcount: '1843'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
