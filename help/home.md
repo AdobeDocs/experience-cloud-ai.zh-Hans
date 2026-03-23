@@ -1,10 +1,10 @@
 ---
 title: Experience Cloud 应用程序中的 AI
 description: 了解 Experience Cloud 应用程序如何使用生成式 AI、AI 助手和代理式 AI。
-source-git-commit: 0e3839f829efc5670c235435d49ed5e49da2ed13
+source-git-commit: 73d63e310783310d0e6fb3d696ded7d4edb5bede
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 13%
+source-wordcount: '902'
+ht-degree: 16%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 13%
 
 ### Agent Orchestrator
 
-[Adobe Experience Platform Agent Orchestrator](./agents/agent-orchestrator.md)是Adobe Experience Platform中的新代理层。 Experience Platform Agent Orchestrator 旨在利用平台的丰富数据和客户知识，为专门构建的专业 Adobe Experience Platform 代理赋予智能和推理功能，使后者在人为监督下大规模地快速执行复杂的决策和问题解决任务。当您在 AI 助手这类对话界面中用自然语言提出问题或请求帮助时，Agent Orchestrator 会自动调用专门的代理来为您提供正确的回答。Agent Orchestrator会记住您的对话历史记录，使您能够自然地发展以前的问题，而无需重复上下文，并结合来自多个代理的洞察，为您提供清晰、统一的响应。
+[Adobe Experience Platform Agent Orchestrator](./agents/agent-orchestrator.md)是Adobe Experience Platform中的新代理层。 Experience Platform Agent Orchestrator 旨在利用平台的丰富数据和客户知识，为专门构建的专业 Adobe Experience Platform 代理赋予智能和推理功能，使后者在人为监督下大规模地快速执行复杂的决策和问题解决任务。 当您在 AI 助手这类对话界面中用自然语言提出问题或请求帮助时，Agent Orchestrator 会自动调用专门的代理来为您提供正确的回答。 Agent Orchestrator 会记住您的对话历史，使您能够自然地延续以前的问题，无需重复上下文，它还会结合来自多个代理的洞察，为您提供清晰、统一的回答。
 
 **核心组件：**
 
@@ -78,6 +78,16 @@ Customer Journey Analytics中的Data Insights Agent提供：
 
 有关详细信息，请阅读[产品支持代理文档](./agents/product-support.md)。
 
+#### [!DNL Microsoft 365 Copilot]的Adobe Marketing Agent
+
+使用[!DNL Microsoft 365 Copilot]的Adobe Marketing Agent在[!DNL Microsoft 365]应用（如[!DNL Teams]、[!DNL Word]、[!DNL Powerpoint]和[!DNL Excel]）中检索Experience Platform的营销见解。 通过此代理，您可以：
+
+- 做出更快、数据驱动的营销决策。
+- 减少在工具之间切换所花费的时间。
+- 简化跨团队访问受众和历程见解的操作。
+
+有关详细信息，请阅读[Adobe Marketing Agent文档](./agents/ama-ms.md)。
+
 ## 快速入门
 
 ### 访问要求
@@ -98,11 +108,11 @@ AI Assistant构建时以隐私、安全和治理为重点：
 - 交互日志的30天保留策略。
 - 特定于沙盒的数据隔离。
 
-## 最佳做法
+## 最佳实践
 
 要从AI Assistant体验中获取最大价值，请遵循以下最佳实践：
 
-- 在提示中指定&#x200B;**&#x200B;**&#x200B;以从AI助手获取有针对性的相关见解。
+- 在提示中指定&#x200B;****&#x200B;以从AI助手获取有针对性的相关见解。
 - **通过查看源引用和AI助手提供的推理解释来验证响应**。
 - **使用上下文设置**&#x200B;以确保您的问题使用了最相关的数据源。
 - **提供反馈**&#x200B;以帮助随着时间的推移提高AI Assistant的性能和准确性。
