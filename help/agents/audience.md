@@ -1,9 +1,9 @@
 ---
 title: Audience 代理
 description: 了解如何使用Audience Agent创建受众、查看受众更改、检测重复的受众以及查看受众分析。
-source-git-commit: effd4fe4123953b6af375dfb46fcc669b2e35df1
+source-git-commit: ec03f46b5d80558b683f6cd4330f51258b7378a1
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1242'
 ht-degree: 2%
 
 ---
@@ -38,14 +38,16 @@ AI Assistant中的Audience Agent支持以下用例：
    - 凭借此技能，您可以根据给定的属性和事件创建受众
    - 此外，通过这项技能，可在创建受众之前估计受众的潜在大小，从而可在最有效的受众准备好激活之前快速对其进行迭代
 
-<!-- - Find your audience size and detect significant changes in audience size
+<!--
+  - Find your audience size and detect significant changes in audience size
   - This lets you find audiences that have suddenly grown or shrunk, letting you better analyze potential market changes
 - Detect duplicate audiences
   - This lets you reduce redundancies with your created audiences
 - Find audiences based on full or partial attributes named
   - This lets you more easily navigate through your audience inventory
 - Discover XDM fields you can use to define an audience
-  - This skill lets you more easily identify the right fields to use in your audience based on context and relevance -->
+  - This skill lets you more easily identify the right fields to use in your audience based on context and relevance 
+-->
 
 Audience Agent当前&#x200B;**不**&#x200B;支持以下功能：
 
@@ -214,7 +216,7 @@ Audience Agent当前&#x200B;**不**&#x200B;支持以下功能：
 homeAddress.state.equals("California", false)
 ```
 
-有关PQL的更多信息，请阅读[PQL概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/pql/overview)。
+有关PQL的更多信息，请阅读[PQL概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)。
 
 +++
 
