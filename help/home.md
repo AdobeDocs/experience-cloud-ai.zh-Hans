@@ -1,10 +1,10 @@
 ---
 title: Experience Cloud 应用程序中的 AI
 description: 了解 Experience Cloud 应用程序如何使用生成式 AI、AI 助手和代理式 AI。
-source-git-commit: 73d63e310783310d0e6fb3d696ded7d4edb5bede
+source-git-commit: c3cb327bb7625ee81f784a1fad740b7b4cbdfb71
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 16%
+source-wordcount: '846'
+ht-degree: 17%
 
 ---
 
@@ -78,15 +78,17 @@ Customer Journey Analytics中的Data Insights Agent提供：
 
 有关详细信息，请阅读[产品支持代理文档](./agents/product-support.md)。
 
-#### [!DNL Microsoft 365 Copilot]的Adobe Marketing Agent
+<!--
+#### Adobe Marketing Agent for [!DNL Microsoft 365 Copilot]
 
-使用[!DNL Microsoft 365 Copilot]的Adobe Marketing Agent在[!DNL Microsoft 365]应用（如[!DNL Teams]、[!DNL Word]、[!DNL Powerpoint]和[!DNL Excel]）中检索Experience Platform的营销见解。 通过此代理，您可以：
+Use the Adobe Marketing Agent for [!DNL Microsoft 365 Copilot] to retrieve marketing insights from Experience Platform in [!DNL Microsoft 365] apps like [!DNL Teams], [!DNL Word], [!DNL Powerpoint], and [!DNL Excel]. With this agent, you can:
 
-- 做出更快、数据驱动的营销决策。
-- 减少在工具之间切换所花费的时间。
-- 简化跨团队访问受众和历程见解的操作。
+- Make faster, data-driven marketing decisions.
+- Reduce time spent switching between tools.
+- Simplify access to audience and journey insights across teams.
 
-有关详细信息，请阅读[Adobe Marketing Agent文档](./agents/ama-ms.md)。
+Read the [Adobe Marketing Agent documentation](./agents/ama-ms.md) for more information.
+-->
 
 ## 快速入门
 
@@ -112,7 +114,7 @@ AI Assistant构建时以隐私、安全和治理为重点：
 
 要从AI Assistant体验中获取最大价值，请遵循以下最佳实践：
 
-- 在提示中指定&#x200B;**&#x200B;**&#x200B;以从AI助手获取有针对性的相关见解。
+- 在提示中指定&#x200B;****&#x200B;以从AI助手获取有针对性的相关见解。
 - **通过查看源引用和AI助手提供的推理解释来验证响应**。
 - **使用上下文设置**&#x200B;以确保您的问题使用了最相关的数据源。
 - **提供反馈**&#x200B;以帮助随着时间的推移提高AI Assistant的性能和准确性。
