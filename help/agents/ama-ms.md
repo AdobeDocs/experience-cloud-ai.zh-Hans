@@ -125,7 +125,7 @@ Adobe Marketing Agent依赖的控件和治理与Experience Platform和[!DNL Micr
 
 >[!IMPORTANT]
 >
->Adobe Marketing Agent会根据提交的提示调用不同的Adobe代理和作业。 调用此基础Adobe代理将利用[Adobe Experience Platform代理作业和AI信用消耗](https://experienceleague.adobe.com/en/docs/core-services/interface/features/ai-credit-consumption)页面中指示的AI信用。
+>Adobe Marketing Agent会根据提交的提示调用不同的Adobe代理和作业。 调用此基础Adobe代理将利用[Adobe Experience Platform代理作业和AI信用消耗](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/ai-credit-consumption)页面中指示的AI信用。
 
 ## 附录
 
