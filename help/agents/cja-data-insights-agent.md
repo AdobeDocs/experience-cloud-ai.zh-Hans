@@ -78,7 +78,7 @@ AI助手中的![Data Insights Agent](/help/agents/images/cja-agent/cja-ai-asst-d
   >
   >启用数据视图时，请考虑以下事项：
   >* 每个IMS组织最多可启用50个数据视图。 如果您在给定组织的所有产品配置文件中启用了超过50个数据视图，Data Insights Agent将使用50个最常用的数据视图。
-  >  您可以使用数据视图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views)中Data Insights Agent列上的[信息查看IMS组织中为Data Insights Agent启用的数据视图数量。
+  >  您可以使用数据视图[&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views)中Data Insights Agent列上的信息查看IMS组织中为Data Insights Agent启用的数据视图数量。
   >* 在启用数据视图的同一天，Data Insights Agent可以引用包含的数据视图。
 
   要为Data Insights Agent启用数据视图，请执行以下操作：
