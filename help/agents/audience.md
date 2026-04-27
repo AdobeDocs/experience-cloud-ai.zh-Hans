@@ -1,13 +1,16 @@
 ---
 title: Audience 代理
 description: 了解如何使用Audience Agent创建受众、查看受众更改、检测重复的受众以及查看受众分析。
-source-git-commit: ec03f46b5d80558b683f6cd4330f51258b7378a1
+TQID: https://experienceleague.adobe.com/574QhqKI0YDoPHD9BFmB6jl-HET3zVom3eD4cJQABSE
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: 1242
 ht-degree: 2%
 
 ---
-
 
 # Audience 代理
 
@@ -138,45 +141,45 @@ Audience Agent当前&#x200B;**不**&#x200B;支持以下功能：
 
 ### 检索受众规模
 
-我的受众“加州金星会员_f153e1”的当前规模是多少？
+What is the current size of my audience &quot;Gold-star Members in California_f153e1&quot;?
 
 +++ 响应
 
-![AI助手声明所询问的受众的当前大小。](./images/audience/current-size.png)
+![The AI Assistant states the current size of the audience that was asked about.](./images/audience/current-size.png)
 
 +++
 
-我最大的受众是什么？
+What is my biggest audience?
 
 +++ 响应
 
-![AI助手提供有关配置文件最多的受众的信息，包括名称和受众ID。](./images/audience/largest-audience.png)
+![The AI Assistant gives information about the audience with the most profiles, including name and audience ID.](./images/audience/largest-audience.png)
 
 +++
 
-### 检测受众规模的显着变化
+### Detect significant changes in audience size
 
-上周哪些受众的规模扩大了20%以上？
+Which audiences have increased in size by more than 20% in the last week?
 
 +++ 响应
 
-![AI Assistant显示一个表，其中列出了与查询匹配的所有受众的名称。 它还显示百分比增长、当前受众规模以及之前的受众规模。](./images/audience/increase-past-week.png)
+![The AI Assistant displays a table that lists the names of all the audiences that match the query. It also shows the percentage increase, the current audience size, as well as the former audience size.](./images/audience/increase-past-week.png)
 
 +++
 
-上个月哪些受众的大小缩减了10%以上？
+Which audiences have decreased in size by more than 10% in the last month?
 
 +++ 响应
 
-![AI Assistant显示一个表，其中列出了与查询匹配的所有受众的名称。 它还显示当前受众规模、以前的受众规模以及旧受众规模的日期。](./images/audience/decrease-month.png)
+![The AI Assistant displays a table that lists the names of all the audiences that match the query. It also shows the current audience size, the former audience size, as well as the date of the old audience size.](./images/audience/decrease-month.png)
 
 +++
 
-我增长最快的受众是什么？
+What is my fastest growing audience?
 
 +++ 响应
 
-![AI Assistant声明增长最快的受众的名称，以及当前大小和增长百分比。](./images/audience/fastest-growing.png)
+![The AI Assistant states the name of the fastest growing audience, as well as the current size and the percentage of growth.](./images/audience/fastest-growing.png)
 
 +++
 
@@ -184,25 +187,25 @@ Audience Agent当前&#x200B;**不**&#x200B;支持以下功能：
 
 >[!AVAILABILITY]
 >
->仅当您是Agent Orchestrator Explorer程序的一部分时，才能使用“创建受众”技能。 有关更多信息，请联系Adobe客户关怀部门。
+>You can only use the create audience skill if you are part of the Agent Orchestrator Explorer program. For more information, contact Adobe Customer Care.
 
-使用Audience Agent创建受众时，AI助手将指导您完成计划。 例如，您可以请求“创建一个由住在加利福尼亚的人组成的受众”。 然后，AI Assistant会列出创建受众的计划。
+When you create an audience with Audience Agent, AI Assistant will guide you through a plan. For example, you can ask to &quot;Create an audience made up of people who live in California&quot;. AI Assistant then lists the plan that it will undertake to create the audience.
 
 +++ 响应
 
-![AI助手显示创建受众的计划。](./images/audience/audience-create-plan.png)
+![The AI Assistant shows the plan to create an audience.](./images/audience/audience-create-plan.png)
 
 +++
 
-该计划包括三个步骤：
+This plan is made up of three steps:
 
-1. [识别受众特征](#identify)
-2. [估计受众规模](#estimate)
-3. [创建并保留新受众](#create)
+1. [Identify audience characteristics](#identify)
+2. [Estimate audience size](#estimate)
+3. [Create and persist a new audience](#create)
 
-#### 识别受众特征 {#identify}
+#### Identify audience characteristics {#identify}
 
-![计划的步骤1，用于识别受众特征。](./images/audience/plan-step-1.png){align="center" width="80%"}
+![Step 1 of the plan, which is to identify audience characteristics.](./images/audience/plan-step-1.png){align="center" width="80%"}
 
 接受计划后，AI Assistant将根据您的初始查询获取受众特征。
 
@@ -216,7 +219,7 @@ Audience Agent当前&#x200B;**不**&#x200B;支持以下功能：
 homeAddress.state.equals("California", false)
 ```
 
-有关PQL的更多信息，请阅读[PQL概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/pql/overview)。
+有关PQL的更多信息，请阅读[PQL概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)。
 
 +++
 

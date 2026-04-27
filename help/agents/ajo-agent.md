@@ -4,19 +4,24 @@ description: Journey Agent的综合指南，使用户能够使用Journey Optimiz
 solution: Journey Optimizer
 product: journey optimizer
 role: Admin,User,Developer,Leader
-source-git-commit: aba0b2f7f819f762c336c4dfeb952326a0814800
+TQID: https://experienceleague.adobe.com/7Bamc-q4rDOB9i0oxwixdmtdU8lrx3btpvMfAsjGnig
+product_v2: id: cb954087-f4fc-4456-afb9-e939cabcdc79
+feature_v2: id: baecb07f-ce89-4ebb-9cd9-0f7c053f944fid: d0a62d3c-b79e-47e4-929e-40ef3cffa037id: d556b755-390a-43f0-be32-a08cf6236126id: d998adac-2f81-400b-a669-d07bb196e4ebid: df64005d-8f9a-422e-ba4d-c6f6dc3454b4id: fe338112-e2ce-4876-8989-fc4d497613f1
+subfeature_v2: id: b15c7c2e-788c-4eb7-86a8-390565b0d2c9id: b32bb433-f8c6-4931-8e52-e657230a3bf2id: b3a93754-a8b8-46eb-9421-7eccaeeb3dffid: fa683eda-48de-4558-af32-2673edcd44fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ff2b9b37-92e0-45fc-b853-379d44c08c89
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '2608'
+source-wordcount: 2655
 ht-degree: 14%
 
 ---
-
 
 # Journey Agent：概述和用户指南
 
 ## Adobe Journey Optimizer中的Journey Agent简介
 
-Journey Agent使Journey Optimizer用户能够使用自然语言界面创建、分析和优化营销历程。 通过 Journey 代理，从业者可以快速构建历程、发现并解决计划或受众冲突、分析性能和流失点，确定表现最佳的历程并将其复制用于未来的营销活动。它使从业者能够做出数据驱动型决策、提高客户参与度并简化历程编排。
+Journey Agent使Journey Optimizer用户能够使用自然语言界面创建、分析和优化营销历程。 通过 Journey 代理，从业者可以快速构建历程、发现并解决计划或受众冲突、分析性能和流失点，确定表现最佳的历程并将其复制用于未来的营销活动。 它使从业者能够做出数据驱动型决策、提高客户参与度并简化历程编排。
 
 Journey Agent包含三个要完成的主要作业：
 
@@ -122,36 +127,36 @@ Journey Agent包含三个要完成的主要作业：
 
 **季节性营销活动：**
 
-“我想创建一个以日间徒步旅行者为目标的历程。 我想发送一封电子邮件，提醒此受众我即将到来的假期促销，其中包括各种徒步旅行必需品。 在发送第一封电子邮件后等待3天，然后再发送一封包含15%优惠券且免运费的第二封电子邮件。 等待一周，然后发送第3封电子邮件展示我们的新睡袋和帐篷收藏。 安排在12月20日开始历程。”
+&quot;I want to create a journey targeting an audience of day hikers. I want to send an email alerting this audience to my upcoming holiday sale that includes a variety of hiking essentials. Wait 3 days after sending the first email and send a second email that has a 15% coupon with free shipping. Wait 1 week and then send a 3rd email message to show our new sleeping bag and tent collection. Schedule the journey to start on 12/20.&quot;
 
-**忠诚度感谢：**
+**Loyalty appreciation:**
 
-“为SUV车主打造忠诚度提升历程，包括提供免费洗车优惠的感谢推送通知以及后续推送通知提醒（如果第一个通知未在1天内进行交互）。”
+&quot;Build a loyalty appreciation journey for SUV owners, including a thank you push notification with a free carwash offer and a follow-up push notification reminder if the first notification is not interacted with within 1 day.&quot;
 
-### 开放式提示
+### Open-ended prompts
 
-对于没有考虑特定历程的开始用户：
+For users starting without a specific journey in mind:
 
-- “我想创建一个历程”
-- “帮助我创建旅程”
-- “给我创建一个历程”
+- &quot;I&#39;d like to create a journey&quot;
+- &quot;Help me create a journey&quot;
+- &quot;Create me a journey&quot;
 
-代理将提供指导和示例，帮助您定义历程要求。
+The agent will provide guidance and examples to help you define your journey requirements.
 
 ## 最佳实践
 
-### 提示最佳实践
+### Prompting best practices
 
-要最大限度地提高历程创建效率，请遵循以下最佳实践：
+To maximize the effectiveness of Journey Create, follow these best practices:
 
-1. **具体**：提供有关历程目标、目标受众和所需操作的清晰详细信息。 包括有关渠道、计时和条件的信息。
-1. **指定时间**：明确指示操作之间的等待时间以及历程应何时开始。
-1. **定义条件**：使用条件逻辑时，请说明每个分支路径的条件。
-1. **包括渠道**：指定要使用的通信渠道（推送、电子邮件、短信）。
-1. **提及计划**：对于计划的历程，请提供所需的开始日期和时间。
-1. **自定义操作**：如果您在工作流中使用自定义操作，则需要指定您使用的是自定义操作以及自定义操作的确切名称。 示例：
-当用户进入我的商店位置时，使用自定义操作ExternalPush发送欢迎消息。 等待2天，然后使用自定义操作ExternalEmail发送跟进消息，其中包含有关其访问情况的调查。
-1. **验证表达式**：确保检查并验证Journey Agent创建的任何表达式，以确保使用正确的字段和值。
+1. **Be Specific**: Provide clear details about your journey goals, target audience, and desired actions. Include information about channels, timing, and conditions.
+1. **Specify Timing**: Clearly indicate wait periods between actions and when the journey should start.
+1. **Define Conditions**: When using conditional logic, explain the criteria for each branch path.
+1. **Include Channels**: Specify which communication channels you want to use (push, email, SMS).
+1. **Mention Scheduling**: For scheduled journeys, provide the desired start date and time.
+1. **Custom Actions**: If you are using custom actions in your workflow you need to specify that you are using a custom action along with the exact name of the custom action. 示例：
+When a user enters my store location send a welcome message using custom action ExternalPush. Wait 2 days and then send a follow up message using custom action ExternalEmail with a survey on their visit.
+1. **Validate Expressions**: Make sure to check and validate any expressions that Journey Agent creates to ensure that the correct fields and values are used.
 
 ### 设置最佳实践
 
@@ -246,29 +251,29 @@ Journey Agent包含三个要完成的主要作业：
 
 ## 概述
 
-Journey Agent将使Journey Optimizer用户能够使用自然语言界面分析和优化历程。 借助Journey Agent，从业者可以快速识别和解决计划和/或受众冲突，检测历程中的用户放弃点并提供见解或建议。 它使从业者能够做出数据驱动的决策、提高客户参与度，并简化历程编排。
+Journey Agent will enable Journey Optimizer users to analyze, and optimize journeys using a natural language interface. With Journey Agent, practitioners can quickly identify and resolve schedule and/or audience conflicts, detect points of user abandonment in a journey and provide insights or recommendations. 它使从业者能够做出数据驱动的决策、提高客户参与度，并简化历程编排。
 
-在此[概述](https://experienceleague.adobe.com/zh-hans/slides/journey-agent-overview)中了解更多信息并快速发现代理。
+Learn more and discover the agent at a glance in this [overview](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >
->Journey Agent适用于有权访问AI Assistant的所有客户。 但是，您需要以下权限才能完全使用Journey Agent功能：
+>The Journey Agent is available for all customers who have access to AI Assistant. However, you will need the following permissions in order to fully use the Journey Agent features:
 >
->**查看历程**：此权限允许您直接在AI助手中查看历程见解。
+>**View Journeys**: This permission lets you view insights into the journey directly in AI Assistant.
 >
->**管理历程**：“收件人”权限允许您直接在AI助手中创建新旅程。
+>**Manage Journeys**: To permission lets you create new journeys directly in AI Assistant.
 >
->**查看区段**：此权限允许您直接在AI助手中查看受众分析。
+>**View Segments**: This permission lets you view insights into the audiences directly in AI Assistant.
 >
->**管理区段**：“收件人”权限允许您直接在AI助手中创建新受众。
+>**Manage Segments**: To permission lets you create new audiences directly in AI Assistant.
 
-AJO代理的![示例](./images/ajo-agent/ajo-agent-sample.png)
+![Sample for AJO Agent](./images/ajo-agent/ajo-agent-sample.png)
 
 ## 用例
 
-### 历程分析的主要用例
+### Key Use Cases for Journey Analyze
 
-历程分析提供了一系列可用于优化营销工作的功能：
+Journey Analyze offers a range of functionalities that can be leveraged to optimize marketing efforts:
 
 1. **历程流失分析**
 
@@ -290,19 +295,19 @@ AJO代理的![示例](./images/ajo-agent/ajo-agent-sample.png)
 
 1. **运营洞察**
 
-   - 基于提示的历程见解 — 有关历程的表面运营见解，即“显示所有实时历程”。
+   - Prompt-based Journey Insights – Surface operational insights about journeys , i.e. &quot;show me all live journeys.&quot;
 
-对于其中每个分析，代理不仅会检测问题，还会提供&#x200B;**可操作的建议来解决问题**。
+For each of these analyses, the agent not only detects issues but also provides **actionable recommendations to resolve them**.
 
 ## 范围内和范围外的技能
 
 ### **范围内**
 
-历程分析支持以下功能：
+The following capabilities are supported by Journey Analyze:
 
 - **回应式查询**：允许用户询问有关历程表现、受众使用情况和时间计划冲突的具体问题。
 - **与其他代理集成**：与 Audience 代理和 Data Insights 代理协作进行更深入的分析。
-- **代理响应结构**：推理（解释逻辑）、分析摘要（突出显示关键点）、问题详细信息（描述问题）和推荐（建议后续步骤）。
+- **Agent response structuration**: reasoning (explain the logic), analysis summary (highlight key points), issue details (describe the problem), and recommendation (propose next steps).
 
 ### **范围外**
 
@@ -323,8 +328,8 @@ AJO代理的![示例](./images/ajo-agent/ajo-agent-sample.png)
 
 ### 关于历程生命周期的问题
 
-- “[历程名称]何时发布？”
-- “[历程名称]何时停止？”
+- &quot;When was [Journey Name] published?&quot;
+- &quot;When was [Journey Name] stopped?&quot;
 - “列出当前处于测试模式的所有历程”
 
 ### 关于历程资源的问题
@@ -335,11 +340,11 @@ AJO代理的![示例](./images/ajo-agent/ajo-agent-sample.png)
 ### 受众和历程洞察
 
 - “超过X个历程中使用了哪些受众？”
-- “使用[受众名称]受众列出所有历程。”
+- &quot;List all journeys using the [audience name] audience.&quot;
 
-### 流失分析
+### Fallout analysis
 
-- “我想按节点分析7月4日营销活动旅程的流失。”
+- &quot;I want to analyze the fallout by node for journey Fourth of July Campaign.&quot;
 - “为7月4日营销活动的历程执行流失分析。”
 - “在‘七月四日’营销活动的历程中，用户档案丢失情况如何？”
 - “展示7月4日营销活动在旅程中用户流失的位置。”
@@ -348,7 +353,7 @@ AJO代理的![示例](./images/ajo-agent/ajo-agent-sample.png)
 
 使用这些提示词来分析历程之间的潜在冲突，包括时间计划和受众重叠：
 
-- “能否对包含冲突类型(计划/历程)信息的历程[受众名称]与实时/正在运行的历程的冲突进行全面分析？”
+- “能否对包含冲突类型（计划/历程）信息的历程[受众名称]与实时/正在运行的历程的冲突进行全面分析？”
 - “请对包含冲突类型信息的历程[历程名称]进行计划冲突分析。”
 - “请对包含冲突类型信息的历程[受众名称]进行历程重叠分析。”
 - “历程[历程名称]是否存在任何计划冲突？”
@@ -380,7 +385,7 @@ AJO代理的![示例](./images/ajo-agent/ajo-agent-sample.png)
 
 要最大限度地提高历程分析的有效性，请遵循以下最佳实践：
 
-1. **描述具体**：使用清晰简洁的提示来获得有针对性的见解。例如，请指定“列出上个月创建的所有历程”，而不是询问“我的历程是什么？”。
+1. **描述具体**：使用清晰简洁的提示来获得有针对性的见解。 例如，请指定“列出上个月创建的所有历程”，而不是询问“我的历程是什么？”。
 1. **结合洞察**：结合来自 Audience 代理和 Data Insights 代理的洞察，全面了解历程的表现。
 1. **迭代改进**：使用流失和重叠分析来迭代改进历程设计和时间计划。
 

@@ -1,28 +1,32 @@
 ---
-title: 法律免责声明 — 个人数据、语言支持和验证响应
-description: 了解关于个人数据、语言支持和使用AI助手时验证响应的法律免责声明。
-source-git-commit: 4bb6da3fe1abee98446df62c94730274e0931493
+title: Legal Disclaimer - Personal Data, Language Support, and Verifying Responses
+description: Learn about legal disclaimers regarding personal data, language support, and verifying responses when using AI Assistant.
+TQID: https://experienceleague.adobe.com/yfjRu87Nfi1tYchKcfUY79g-13A319iW6g8splURndw
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 22%
+source-wordcount: 232
+ht-degree: 0%
 
 ---
 
-# 法律免责声明：个人数据、语言支持和验证响应
+# Legal Disclaimer: Personal Data, Language Support, and Verifying Responses
 
-请阅读本文档，了解有关使用Adobe Experience Platform AI助手时个人数据、语言支持和验证响应的法律免责声明。
+Read this document for information on legal disclaimers regarding personal data, language support, and verifying responses when using the Adobe Experience Platform AI Assistant.
 
 ## 个人数据 {#personal-data}
 
-AI 助手使用自动聊天机器人。您使用此自动聊天机器人即表示，您同意 Adobe 和代表 Adobe 行事的服务提供商将根据您的组织与 Adobe 之间的协议条款收集、使用、披露和保留您在聊天会话中提供的信息。
+AI Assistant uses an automated chatbot. Your use of this automated chatbot constitutes consent that the information you provide in the chat session will be collected, used, disclosed, and retained by Adobe and service providers acting on Adobe&#39;s behalf in accordance with the terms of the agreement between your organization and Adobe.
 
-如果您需要在此处包含个人数据，请仅添加必要的内容，并且您有权使用它。
+If you need to include personal data here, only add what&#39;s necessary and only if you have the right to use it.
 
-## 语言支持 {#language-support}
+## Language Support {#language-support}
 
-目前，仅支持英语版AI助手。非英文输入内容可能会产生不一致或错误的结果。 非英文答复引起的问题目前不予处理或改进。
+AI Assistant is currently supported in English only. Non-English inputs may produce inconsistent or erroneous results. Issues arising from non-English responses won&#39;t be addressed or improved at the present time.
 
-## 验证响应 {#verifying-responses}
+## Verifying Responses {#verifying-responses}
 
-检查您的答案很重要，因为语言模型可能会出错。 始终验证源以确保正确实施SQL逻辑，并确保已针对您的用例引用了相应的文档。 查看AI助手提供的推理步骤和解释，了解它如何得出答案。 如果某些内容看起来不正确，请提交反馈。
+It is important to check your answers, as language models can make mistakes. Always verify the sources to ensure that SQL logic is correct and that the appropriate documentation was referenced for your use case. Review the reasoning steps and explanations provided by AI Assistant to understand how it arrived at its answer. If something does not look right, please submit feedback.
 

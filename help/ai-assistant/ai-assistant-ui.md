@@ -1,9 +1,13 @@
 ---
 title: AI 助手 UI 指南
 description: 了解如何在用户界面中访问和使用 AI 助手。
-source-git-commit: ec03f46b5d80558b683f6cd4330f51258b7378a1
+TQID: https://experienceleague.adobe.com/MWhVCqUFt5Qze4mQp-G85OF81Mk1OL4xY8Jygm-B4PI
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
 workflow-type: tm+mt
-source-wordcount: '2162'
+source-wordcount: 2162
 ht-degree: 3%
 
 ---
@@ -22,7 +26,7 @@ ht-degree: 3%
 | 功能范围 | 您可以将AI助手（旧版）用于产品知识和操作见解。 | 您可以使用AI Assistant（新一代）来获取产品知识、运营见解以及高级代理技能和多步骤任务执行。 |
 | 平台架构 | AI助手（旧版）不是在Agent Orchestrator栈栈上构建的。 | AI Assistant （下一代）由[Adobe Experience Platform Agent Orchestrator](https://experienceleague.adobe.com/zh-hans/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator)提供支持，支持可扩展性和功能间的高级协调。 |
 | 应用范围 | AI Assistant（旧版）是一种特定于应用程序的实施。 | 您可以使用AI Assistant（下一代）在所有Adobe Experience Cloud应用程序中实现统一的AI Assistant体验。 |
-| 访问和权限模型 | 应用程序范围的访问模型与各个产品边界保持一致。 | 所有用户均可访问AI Assistant（下一代）和相关的Experience Platform代理。**注释**： <ul><li>**Adobe Experience Manager**：您的管理员必须授予您通过[Adobe Admin Console](https://helpx.adobe.com/cn/enterprise/using/admin-console.html)访问AI助手（下一代）的权限。</li><li>**Customer Journey Analytics**：您的管理员必须通过[Customer Journey Analytics访问控制](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/technotes/access-control?lang=en)授予您访问AI助手权限。 这允许您提问产品知识和数据见解问题。 |
+| 访问和权限模型 | 应用程序范围的访问模型与各个产品边界保持一致。 | 所有用户均可访问AI Assistant（下一代）和相关的Experience Platform代理。 **注释**： <ul><li>**Adobe Experience Manager**：您的管理员必须授予您通过[Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)访问AI助手（下一代）的权限。</li><li>**Customer Journey Analytics**：您的管理员必须通过[Customer Journey Analytics访问控制](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/access-control?lang=en)授予您访问AI助手权限。 这允许您提问产品知识和数据见解问题。 |
 
 AI Assistant是一种智能的对话式、创新型人工智能工具，可在基于Adobe Experience Platform的应用程序中提高工作效率并重新定义工作。 您可以使用AI Assistant访问Adobe Experience Platform代理和其他AI功能。
 
@@ -134,121 +138,121 @@ AI Assistant界面包括几个关键元素，可帮助您进行有效交互：
 
 ### 查看源
 
-要验证AI助手响应，请选择&#x200B;**[!UICONTROL 源]**&#x200B;以查看AI助手在计算其响应时引用的信息源列表。
+To verify AI Assistant&#39;s response, select **[!UICONTROL Sources]** to view a list of information sources that AI Assistant referenced when calculating its response.
 
-![AI助手引用的源列表。](./images/ai-assistant/inputs/sources.png)
+![The list of sources referenced by AI Assistant.](./images/ai-assistant/inputs/sources.png)
 
 ### 提供反馈
 
-您可以使用应答中提供的选项针对AI助手体验提供反馈。
+You can provide feedback of your experience with AI Assistant using the options provided with answer.
 
-要提供反馈，请在收到AI Assistant的响应后选择竖起或竖下大拇指，然后在提供的文本框中输入反馈。
+To provide feedback, select either thumbs up or thumbs down after receiving a response from AI Assistant, and then input your feedback in the provided text box.
 
-![在AI助手中向上和向下缩略图标。](./images/ai-assistant/inputs/feedback.png)
+![The thumbs up and thumbs down icons in AI Assistant.](./images/ai-assistant/inputs/feedback.png)
 
 >[!BEGINTABS]
 
->[!TAB 竖起缩略图]
+>[!TAB Thumbs up]
 
-选择&#x200B;**[!UICONTROL 向上缩略图]**&#x200B;以提供正反馈。 您可以选择从正反馈列表中进行选择，或者使用输入框输入您自己的特定反馈。
+Select **[!UICONTROL Thumbs up]** to provide positive feedback. You can optionally select from a list of positive feedback or use the input box to enter your own specific feedback.
 
 +++选择以查看
 
-![竖起大拇指的反馈窗口。](./images/ai-assistant/inputs/thumbs-up.png)
+![The thumbs up feedback window.](./images/ai-assistant/inputs/thumbs-up.png)
 
-您还可以选择&#x200B;**[!UICONTROL 详细反馈]**&#x200B;以进一步详细说明您的反馈。 完成后，选择&#x200B;**[!UICONTROL 提交]**。
+You can also select **[!UICONTROL Detailed feedback]** to further elaborate on your feedback. When finished, select **[!UICONTROL Submit]**.
 
-![拇指竖起的详细反馈窗口。](./images/ai-assistant/inputs/thumbs-up-detailed.png)
+![The detailed feedback window for thumbs up.](./images/ai-assistant/inputs/thumbs-up-detailed.png)
 
 +++
 
->[!TAB 拇指朝下]
+>[!TAB Thumbs down]
 
-选择&#x200B;**[!UICONTROL 向下]**&#x200B;的缩略图以提供建设性的反馈。 您可以选择从建设性反馈列表中进行选择，或者使用输入框输入您自己的特定反馈。
+Select **[!UICONTROL Thumbs down]** to provide constructive feedback. You can optionally select from a list of constructive feedback or use the input box to enter your own specific feedback.
 
 +++选择以查看
 
-![拒绝反馈窗口。](./images/ai-assistant/inputs/thumbs-down.png)
+![The thumbs down feedback window.](./images/ai-assistant/inputs/thumbs-down.png)
 
-同样，您还可以选择&#x200B;**[!UICONTROL 详细反馈]**&#x200B;以进一步详细说明您的反馈。 完成后，选择&#x200B;**[!UICONTROL 提交]**。
+Similarly, you can also select **[!UICONTROL Detailed feedback]** to further elaborate on your feedback. When finished, select **[!UICONTROL Submit]**.
 
-![缩略图关闭的详细反馈窗口。](./images/ai-assistant/inputs/thumbs-down-detailed.png)
+![The detailed feedback window for thumbs down.](./images/ai-assistant/inputs/thumbs-down-detailed.png)
 
 +++
 
 >[!ENDTABS]
 
-### 使用拆分视图功能
+### Use the split-view feature
 
-如果AI Assistant的响应包含图像，您可以选择路径图标以启动拆分视图模式。 这允许您阅读右侧显示的上下文图像的AI助手响应的全文。
+If AI Assistant&#39;s response includes an image, you can select the path icon to launch a split-view mode. This allows you to read the entirety of AI Assistant&#39;s response with contextual image displayed on the right.
 
-![AI助手上的拆分视图模式。](./images/ai-assistant/inputs/split-view.png)
+![The split-view mode on AI Assistant.](./images/ai-assistant/inputs/split-view.png)
 
 ### 对话
 
-您可以使用&#x200B;*[!UICONTROL 所有对话]*&#x200B;面板重置并重新访问与AI助理的对话。 选择&#x200B;**[!UICONTROL 对话]**&#x200B;图标以查看&#x200B;*[!UICONTROL 所有对话]*&#x200B;窗口。
+You can use the *[!UICONTROL All conversations]* panel to reset and revisit conversations with AI Assistant. Select the **[!UICONTROL Conversations]** icon to view the *[!UICONTROL All conversations]* window.
 
-![AI助手上的对话窗口。](./images/ai-assistant/conversations/select-conversations.png)
+![The conversations window on AI Assistant.](./images/ai-assistant/conversations/select-conversations.png)
 
-要重新访问上一个对话，请从提供的列表中选择对话主题。
+To revisit a previous conversation, select the conversation topic from the list provided.
 
-![以前在AI助手上记录的对话列表。](./images/ai-assistant/conversations/revisit-conversation.png)
+![The list of previous conversations recorded on AI Assistant.](./images/ai-assistant/conversations/revisit-conversation.png)
 
-若要开始新对话，请选择&#x200B;**[!UICONTROL 新建对话]**。
+To start a new conversation, select **[!UICONTROL New conversation]**.
 
-![已选择“新对话”选项。](./images/ai-assistant/conversations/new-conversation.png)
+![The &quot;new conversation&quot; option selected.](./images/ai-assistant/conversations/new-conversation.png)
 
-### 上下文设置 {#context-setting}
+### Context setting {#context-setting}
 
-使用AI助理的上下文设置功能配置AI助理引用的&#x200B;**应用程序**、**沙盒**&#x200B;和&#x200B;**数据视图**&#x200B;以回答您的查询。 要访问上下文设置，请从输入框中选择&#x200B;**[!UICONTROL 上下文设置]**&#x200B;图标。
+Use the context setting feature of AI Assistant to configure the **application**, **sandbox**, and **dataview** that AI Assistant references to answer your query. To access context setting, select the **[!UICONTROL Context setting]** icon from the input box.
 
-![选定的上下文设置图标。](./images/ai-assistant/inputs/context-selection.png)
+![The context setting icon selected.](./images/ai-assistant/inputs/context-selection.png)
 
-出现&#x200B;*[!UICONTROL 应答自……]*&#x200B;弹出窗口。 使用此窗口配置要使用的信息源，然后选择&#x200B;**[!UICONTROL 设置上下文]**。
+The *[!UICONTROL Answer from...]* pop-up window appears. Use this window to configure the information sources that you want to use and then select **[!UICONTROL Set context]**.
 
-| 信息源 | 描述 | 示例 |
+| Information source | 描述 | 示例 |
 | --- | --- | --- |
-| 应用程序 | 您的查询所属的Experience Cloud应用程序。 | Experience Platform、Journey Optimizer、Customer Journey Analytics等 |
-| 沙盒 | 包含您的查询相关的数据集或信息的沙盒。 | 生产(VA7)、开发 |
-| 数据视图 | 在将AI助手与Customer Journey Analytics结合使用时，数据视图设置可帮助Data Insights Agent了解： <ul><li>要查询的数据集</li><li>哪些数据组件可用</li><li>如何构建有关数据的响应</li><li>要在Analysis Workspace中创建哪些可视化图表</li></ul> | |
+| App | The Experience Cloud application that your query pertains to. | Experience Platform, Journey Optimizer, Customer Journey Analytics, etc. |
+| 沙盒 | The sandbox that contains the dataset(s) or information that your query pertains to. | Prod (VA7), Dev. |
+| Dataview | When you&#39;re using AI Assistant with Customer Journey Analytics, the dataview setting helps the Data Insights Agent understand: <ul><li>Which datasets to query</li><li>What data components are available</li><li>How to structure responses about your data</li><li>Which visualizations to create in Analysis Workspace</li></ul> | |
 
-![可配置信息源的“应答来源”面板。](./images/ai-assistant/inputs/answer-from.png)
+![The &quot;Answer from&quot; panel where information sources can be configured.](./images/ai-assistant/inputs/answer-from.png)
 
-### 数据和对象自动完成
+### Data and object autocomplete
 
-您可以使用自动完成函数接收沙盒中存在的数据对象列表。 要使用自动完成，请在查询中输入加号图标(+)。 或者，您也可以选择位于文本输入框底部的加号图标(+)。 此时将显示一个窗口，其中包含来自沙盒的推荐数据对象列表。
+You can use the autocomplete function to receive a list of data objects that exist in your sandbox. To use autocomplete, input the plus icon (+) in your query. As an alternative, you can also select the plus icon (+) located at the bottom of the text input box. A window appears with a list of recommended data objects from your sandbox.
 
-![选定的数据和对象自动完成按钮。](./images/ai-assistant/autocomplete/autocomplete.png)
+![The data and object autocomplete button selected.](./images/ai-assistant/autocomplete/autocomplete.png)
 
-### 验证响应
+### Verify responses
 
-可通过多种方式验证来自AI Assistant的响应。 选择&#x200B;**[!UICONTROL 与对象匹配的查询词]**&#x200B;以查看查询中与组织中特定对象匹配的词的摘要。
+There are a number of ways that you can verify responses from AI Assistant. Select **[!UICONTROL Query Term Matched to Objects]** to view a summary of the terms in your query that were matched to specific objects in your organization.
 
-![查询词与您的响应匹配。](./images/ai-assistant/autocomplete/query-terms.png)
+![The query terms matched with your response.](./images/ai-assistant/autocomplete/query-terms.png)
 
-选择&#x200B;**[!UICONTROL 以下是我获得结果的方式]**，查看有关AI助手如何获得答案的详细逐步说明。 此外，您还可以查看为回答问题而执行的SQL查询。 此查询是只读的，不支持在查询服务中使用。
+Select **[!UICONTROL Here is how I got the results]** to see a detailed, step-by-step explanation of how AI Assistant arrived at its answer. Additionally, you can also view the SQL query that was executed to answer your question. This query is read-only and is not supported for use in Query Service.
 
-![AI助手上的SQL验证工具。](./images/ai-assistant/autocomplete/verifications.png)
+![The SQL verification tools on AI Assistant.](./images/ai-assistant/autocomplete/verifications.png)
 
-### 配置数据可视化
+### Configure data visualization
 
-您可以使用AI Assistant的数据可视化功能来更好地了解数据。 您还可以指定要在查询中使用的图形类型。 例如，提交一个显示：**“按产品名称显示上月利润（条形图）”**&#x200B;的查询以接收按产品名称组织的上月利润条形图。
+You can use AI Assistant&#39;s data visualization capabilities to gain a better understanding of your data. You can also specify the type of graph that you want to use in your query. For example, submit a query that says: **&quot;Show profit by product name for last month (bar)&quot;** to receive a bar graph of profit in the last month, organized by product name.
 
-![AI助手上显示的条形图](./images/ai-assistant/visualization/graph.png)
+![A bar graph displayed on AI Assistant](./images/ai-assistant/visualization/graph.png)
 
-接下来，选择&#x200B;**[!UICONTROL 属性]**&#x200B;以更改图形类型并配置X轴和Y轴的值。
+Next, select **[!UICONTROL Properties]** to change your graph type and configure values for your X and Y axis.
 
-AI Assistant支持多种图形类型用于数据可视化。 您可以将鼠标悬停在数据上，与所有类型的图形进行交互。
+AI Assistant supports several graph types for data visualization. You can interact with all types of graph by hovering over the data.
 
 >[!BEGINTABS]
 
 >[!TAB 行]
 
-要查看折线图，请选择&#x200B;**[!UICONTROL 属性]**，然后选择&#x200B;**[!UICONTROL 折线图]**。
+To view a line graph, select **[!UICONTROL Properties]** and then select **[!UICONTROL Line]**.
 
-![AI助手上的折线图。](./images/ai-assistant/visualization/line.png)
+![A line graph on AI Assistant.](./images/ai-assistant/visualization/line.png)
 
->[!TAB 区域]
+>[!TAB Area]
 
 要查看面积图，请选择&#x200B;**[!UICONTROL 属性]**，然后选择&#x200B;**[!UICONTROL 面积图]**。
 
