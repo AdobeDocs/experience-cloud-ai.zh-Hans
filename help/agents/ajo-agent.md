@@ -272,7 +272,7 @@ When a user enters my store location send a welcome message using custom action 
 
 Journey Agent will enable Journey Optimizer users to analyze, and optimize journeys using a natural language interface. With Journey Agent, practitioners can quickly identify and resolve schedule and/or audience conflicts, detect points of user abandonment in a journey and provide insights or recommendations. 它使从业者能够做出数据驱动的决策、提高客户参与度，并简化历程编排。
 
-Learn more and discover the agent at a glance in this [overview](https://experienceleague.adobe.com/en/slides/journey-agent-overview).
+Learn more and discover the agent at a glance in this [overview](https://experienceleague.adobe.com/zh-hans/slides/journey-agent-overview).
 
 >[!AVAILABILITY]
 >

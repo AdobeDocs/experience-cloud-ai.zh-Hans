@@ -226,7 +226,7 @@ This plan is made up of three steps:
 homeAddress.state.equals("California", false)
 ```
 
-有关PQL的更多信息，请阅读[PQL概述](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/pql/overview)。
+有关PQL的更多信息，请阅读[PQL概述](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/segmentation/pql/overview)。
 
 +++
 
