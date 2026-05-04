@@ -1,7 +1,6 @@
 ---
 title: Experimentation Agent
-description: Learn how to use Experimentation Agent
-TQID: https://experienceleague.adobe.com/ARh16ylmUDrp---g8KuYNyewIv54IQ53pxoE2g700o0
+description: 了解如何使用Experimentation Agent
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 role_v2:
@@ -13,7 +12,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
+source-git-commit: b2afc6a3f389790d7af2d4ba29a4362b28432a28
 workflow-type: tm+mt
 source-wordcount: 555
 ht-degree: 4%
@@ -22,51 +21,55 @@ ht-degree: 4%
 
 # Experimentation Agent
 
+<!--
+TQID: https://experienceleague.adobe.com/ARh16ylmUDrp---g8KuYNyewIv54IQ53pxoE2g700o0
+-->
+
 >[!AVAILABILITY]
 >
->The Experimentation Agent is available to all customers who have purchased the paid license of Journey Optimizer Experimentation Accelerator and integrates seamlessly with either Adobe Target or Adobe Journey Optimizer.
+>Experimentation Agent可供已购买Journey Optimizer Experimentation Accelerator付费许可证的所有客户使用，并且可与Adobe Target或Adobe Journey Optimizer无缝集成。
 >
->[Learn more on Journey Optimizer Experimentation Accelerator](https://experienceleague.adobe.com/zh-hans/docs/experimentation-accelerator/using/overview)
+>[了解有关Journey Optimizer Experimentation Accelerator的更多信息](https://experienceleague.adobe.com/zh-hans/docs/experimentation-accelerator/using/overview)
 
 ## 概述
 
-The **Experimentation Agent** is an AI-powered tool that modernizes how you can run and manage digital experiments across websites, emails, push messages, and applications. Built on Adobe Experience Platform AI platform and experimentation tools, the **Experimentation Agent** helps you run experiments more efficiently, organize business goals, and generate actionable insights, highlighting what worked, what did not, and where to experiment next.
+**Experimentation Agent**&#x200B;是一款AI支持的工具，可更新您跨网站、电子邮件、推送消息和应用程序运行和管理数字实验的方式。 **Experimentation Agent**&#x200B;构建于Adobe Experience Platform AI平台和实验工具之上，可帮助您更有效地运行实验、梳理业务目标，并生成可操作的见解，其中重点说明哪些方法有效、哪些方法无效，以及下一步在何处实验。
 
-The following permissions in order to fully use the Experimentation Agent features.
+为了充分利用Experimentation Agent功能，请访问以下权限。
 
-* **View Experiments**: This permission lets you use the Experimentation Agent to view insights into the experiment directly in AI Assistant.
+* **查看试验**：此权限允许您使用Experimentation Agent直接在AI助手中查看试验的见解。
 
-* **Manage Experiment Metada**: This permission lets you use the Experimentation Agent to create new experiments directly in AI Assistant.
+* **管理试验元数据**：此权限允许您使用Experimentation Agent直接在AI助手中创建新试验。
 
-➡️ [Learn more in Journey Optimizer Experimentation Accelerator documentation](https://experienceleague.adobe.com/zh-hans/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
+➡️ [请参阅Journey Optimizer Experimentation Accelerator文档以了解详情](https://experienceleague.adobe.com/zh-hans/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
-As part of Experimentation Accelerator feature, the Agent delivers:
+作为Experimentation Accelerator功能的一部分，代理提供：
 
-* **Performance**: a clear view of what happened in the experiment
+* **性能**：试验中所发生情况的清楚视图
 
-* **Insights**: an explanation of why the results occurred
+* **分析**：结果出现原因的解释
 
-* **Opportunities**: guidance on the next actions to take
+* **机会**：后续操作指南
 
-![Sample for Experimentation Agent](./images/experiment/experiment-agent.png)
+Experimentation Agent的![示例](./images/experiment/experiment-agent.png)
 
 ## 用例
 
-The Experimentation Agent enhances each phase of the experimentation workflow by analyzing results, interpreting content, and suggesting next steps.
+Experimentation Agent通过分析结果、解释内容并建议后续步骤来增强实验工作流的每个阶段。
 
-Its capabilities can be grouped into five key functions:
+其功能可以分为五个关键功能：
 
-* **Experiment Summarization**
+* **试验摘要**
 
-  Provide a clear, non-technical overview of experiment results for stakeholders.
+  为利益相关者提供清晰、非技术性的实验结果概述。
 
-* **Content Analysis**
+* **内容分析**
 
-  Examine the messaging or creative elements of treatments to understand why certain ones outperformed others.
+  研究治疗的消息传递或创造性元素，了解为什么某些疗法优于其他疗法。
 
-* **Attribute Identification**
+* **属性标识**
 
-  Categorize treatments by their key attributes, e.g., themes, tones, formats, and connect those attributes to conversion outcomes.
+  按关键属性（例如，主题、色调、格式）对处理进行分类，并将这些属性与转化结果相关联。
 
 * **推荐生成**
 
