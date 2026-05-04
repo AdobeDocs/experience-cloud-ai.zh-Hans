@@ -1,18 +1,10 @@
 ---
 title: 产品支持代理
 description: 了解如何在 AI 助手中使用产品支持代理来简化故障排查和客户支持工单提交流程。
-TQID: https://experienceleague.adobe.com/SKcxvhwgLhbCjQ---MdK7JzOKF4EzJra3mZjNhpwZ-o
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: f8a45b24-4be7-4f1b-909b-60d06b483a20id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: b2afc6a3f389790d7af2d4ba29a4362b28432a28
 workflow-type: tm+mt
 source-wordcount: 365
 ht-degree: 100%
@@ -20,6 +12,10 @@ ht-degree: 100%
 ---
 
 # 产品支持代理
+
+<!--
+TQID: https://experienceleague.adobe.com/SKcxvhwgLhbCjQ---MdK7JzOKF4EzJra3mZjNhpwZ-o
+-->
 
 产品支持代理是AI Assistant的一项自助调试和故障排除功能，可供Adobe Experience Platform功能和应用程序使用。
 
@@ -68,5 +64,5 @@ ht-degree: 100%
 
 有关更多信息，请观看以下视频，了解如何使用产品支持代理在不离开工作流程的情况下无缝进行故障排除。
 
->[!VIDEO](https://video.tv.adobe.com/v/3443193?captions=chi_hans&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3443183?learn=on)
 
