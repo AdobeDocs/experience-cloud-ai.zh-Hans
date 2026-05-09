@@ -22,7 +22,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: dd7883d8eccab3b0f006d55a850248e1c347d7e7
+source-git-commit: 03b165bd63f21e4f92fecd26cd05605ab027fde3
 workflow-type: tm+mt
 source-wordcount: 2690
 ht-degree: 4%
@@ -47,9 +47,9 @@ AI助手中的![Data Insights Agent](/help/agents/images/cja-agent/cja-ai-asst-d
 | --- | --- | --- |
 | **可视化类型** | <ul><li>线形图</li><li>多行</li><li>自由格式表</li><li>条形图</li><li>圆环图</li><li>摘要数字</li></ul> | <ul><li>流</li><li>流失</li><li>同类群组表</li><li>面积图，栈叠的面积图</li><li>栈叠的条形图</li><li>项目符号</li><li>组合</li><li>直方图</li><li>水平条形图、栈叠的水平条形图</li><li>关键量度摘要</li><li>散点图</li><li>概要变化</li><li>文本</li><li>树状图</li><li>维恩图</li><li>指导分析：主动增长、转化趋势、参与度、首次使用影响、频度、Funnel、净增长、发布影响、保留、时间线、趋势</li></ul> |
 | **Workspace操作和代理功能** | <ul><li>构建和更新可视化图表<p>生成自由格式表和相关的可视化图表（例如折线图、条形图、圆环图等）。</p><p>例如，*从2月到5月，跨SKU的利润是多少？*</p></li><li>提出跟进问题<p>响应上下文中的任何先前提示中的提示。 例如：</p> <ul><li>提示1：*从3月开始的趋势事件。*</li><li>提示2： *改为向我显示从3月到4月的数据*</li></ul> </li><li>范围外提示检测<p>如果您提交了一个超出范围的提示，如&#x200B;*导出此项目*，Data Insights Agent会通知您问题超出范围，从而做出响应。</p></li></ul> | <ul><li>共享</li><li>导出</li><li>下载</li><li>管理用户首选项</li><li>管理数据视图</li><li>Analytics功能板应用程序</li><li>归因</li><li>内联摘要或响应<p>Data Insights Agent无法在聊天边栏中以用户提示的摘要答案进行内联响应。 范围外提示的示例包括：*给我上一个提示的见解摘要*&#x200B;和&#x200B;*总结折线图可视化图表的亮点。*</p></li></ul> |
-| **澄清问题** | 如果您提的问题没有足够上下文可供Data Insights Agent回答，或者过于宽泛，Data Insights Agent会用一个澄清问题或建议的选项进行响应。 <p>以下澄清性问题是组件相关问题的示例：</p><ul><li>量度：*您指的是哪个“收入”量度？*</li><li>Dimension: *Which of the below &quot;regions&quot; do you want to focus on?*</li><li>Segment: *Which &quot;Account&quot; segment did you want to apply?*</li><li>Date Range: *By &quot;last month,&quot; did you mean the last full month or the last 30 days?*</li></ul><p>The following clarifying question is an example of a question related to dimension items:</p> <ul><li>Which &quot;store name&quot; did you mean? (For example, Store #5274, Store #2949, and so forth.)</li></ul> | Clarifying questions are limited to components and dimension items. Data Insights Agent cannot clarify things such as data views, visualizations, data granularity, comparison, and scope. When clarifying questions cannot be used, the agent defaults to what you are most likely asking for. If it returns an unexpected visualization or data granularity, you can ask a follow-up question or adjust the visualization and data. |
-| **Data verifiability and correctness** | Data verifiability and correctness can be confirmed by viewing the generated freeform table and data visualization. <p>For example, if you ask Data Insights Agent to *Trend orders last month*, you can confirm that the correct metric (&quot;orders&quot;) and date range (&quot;last month&quot;) were selected in the newly generated panel, data visualization, and freeform table.</p> | Data Insights Agent does not respond by informing you which components or visualizations were added. |
-| **Feedback mechanisms** | <ul><li>Thumbs up</li><li>Thumbs down</li><li>标记</li></ul> |  |
+| **澄清问题** | 如果您提的问题没有足够上下文可供Data Insights Agent回答，或者过于宽泛，Data Insights Agent会用一个澄清问题或建议的选项进行响应。 <p>以下澄清性问题是组件相关问题的示例：</p><ul><li>量度：*您指的是哪个“收入”量度？*</li><li>Dimension：*您想关注以下“地区”中的哪一个？*</li><li>区段： *您要应用哪个“帐户”区段？*</li><li>日期范围： *对于“上个月”，您是指“上个月”还是“最近30天”？*</li></ul><p>以下澄清问题是与维度项目相关的一个问题的示例：</p> <ul><li>你是指哪个“商店名称”？ （例如，存储#5274、存储#2949等。）</li></ul> | 澄清问题仅限于组件和维度项目。 Data Insights Agent无法阐明数据视图、可视化图表、数据粒度、比较和范围等内容。 当澄清无法使用的问题时，代理将默认使用您最可能要求的内容。 如果它返回意外的可视化图表或数据粒度，您可以提出后续问题或调整可视化图表和数据。 |
+| **数据可验证性和正确性** | 通过查看生成的自由格式表和数据可视化图表，可以确认数据的可验证性和正确性。 <p>例如，如果您要求Data Insights Agent显示上个月&#x200B;*的*&#x200B;趋势订单，则可以确认在新生成的面板、数据可视化图表和自由格式表中选择了正确的指标（“订单”）和日期范围（“上个月”）。</p> | Data Insights Agent不会通过通知您添加了哪些组件或可视化图表来进行响应。 |
+| **反馈机制** | <ul><li>竖起大拇指</li><li>拇指朝下</li><li>标记</li></ul> |  |
 
 
 ## 管理对 Data Insights 代理的访问权限 {#manage-access}
@@ -63,15 +63,15 @@ AI助手中的![Data Insights Agent](/help/agents/images/cja-agent/cja-ai-asst-d
 
 <!-- markdownlint-enable MD034 -->
 
-The following parameters govern access to Data Insights Agent in Customer Journey Analytics:
+以下参数可管理对Customer Journey Analytics中Data Insights Agent的访问：
 
-* **Solution access**: Data Insights Agent is available for eligible customers for a limited time. Access to Data Insights Agent is available through February 28, 2026. It is not available in Adobe Analytics.
+* **解决方案访问权限**： Data Insights Agent在有限的时间内可供符合条件的客户使用。 Data Insights Agent的访问截止日期为2026年2月28日。 在Adobe Analytics中不可用。
 
-* **Contractual access**: If you are not able to use Data Insights Agent in the AI Assistant, please contact your organization&#39;s administrator or Adobe account team. Before your organization can use Data Insights Agent, you must agree to certain legal terms related to generative AI.
+* **合同访问权限**：如果您无法在AI助手中使用Data Insights Agent，请联系贵组织的管理员或Adobe帐户团队。 在贵组织可以使用Data Insights Agent之前，您必须同意与创作AI相关的某些法律条款。
 
-* **Permissions**: Necessary permissions must be granted in the [!UICONTROL Adobe Admin Console] before users can access Data Insights Agent.
+* **权限**：必须先在[!UICONTROL Adobe Admin Console]中授予必要的权限，用户才能访问Data Insights Agent。
 
-  To grant permissions, a [product profile administrator](https://helpx.adobe.com/cn/enterprise/using/manage-product-profiles.html) must complete the following steps in the [!UICONTROL Admin Console]:
+  要授予权限，[产品配置文件管理员](https://helpx.adobe.com/cn/enterprise/using/manage-product-profiles.html)必须在[!UICONTROL Admin Console]中完成以下步骤：
    1. 在&#x200B;**[!UICONTROL Admin Console]**&#x200B;中，选择&#x200B;**[!UICONTROL 产品]**&#x200B;选项卡以查看&#x200B;**[!UICONTROL 所有产品和服务]**&#x200B;页面。
    1. 选择&#x200B;**[!UICONTROL Customer Journey Analytics]**。
    1. 在&#x200B;**[!UICONTROL 产品配置文件]**&#x200B;选项卡上，选择要为其提供[!UICONTROL AI助手：产品知识]访问权限的产品配置文件的标题。
@@ -114,98 +114,98 @@ The following parameters govern access to Data Insights Agent in Customer Journe
 
    1. 在Customer Journey Analytics中，选择&#x200B;**[!UICONTROL 数据管理]** > **[!UICONTROL 数据视图]**。
 
-   1. Select the info icon at the top of the **[!UICONTROL Data Insights Agent]** column.
+   1. 选择&#x200B;**[!UICONTROL Data Insights Agent]**&#x200B;列顶部的信息图标。
 
-      ![Data Insights Agent info icon](/help/agents/images/cja-agent/data-insights-agent-tooltip.png)
+      ![Data Insights Agent信息图标](/help/agents/images/cja-agent/data-insights-agent-tooltip.png)
 
 
-## Access Data Insights Agent in the AI Assistant
+## 在AI助手中访问Data Insights Agent
 
-1. Go to [experience.adobe.com](https://experience.adobe.com/) and log in with your Adobe ID.
+1. 转到[experience.adobe.com](https://experience.adobe.com/)并使用您的Adobe ID登录。
 
-2. Select **Customer Journey Analytics** from Experience Cloud Home.
+2. 从Experience Cloud主页中选择&#x200B;**Customer Journey Analytics**。
 
-3. Select **[!UICONTROL Blank project]** in the banner at the top of the projects page to open a new blank project.
+3. 在项目页面顶部的横幅中选择&#x200B;**[!UICONTROL 空白项目]**&#x200B;以打开一个新的空白项目。
 
-4. Ensure that the selected data view for the panel is a data view that was enabled for use with Data Insights Agent, as described in [Manage access to Data Insights Agent in Customer Journey Analytics](#manage-access-to-data-insights-agent-in-customer-journey-analytics).
+4. 请确保为面板选择的数据视图是已启用与Data Insights Agent一起使用的数据视图，如[在Customer Journey Analytics中管理对Data Insights Agent的访问](#manage-access-to-data-insights-agent-in-customer-journey-analytics)中所述。
 
-5. Select the AI Assistant chat icon at the top-right area of the page.
+5. 选择页面右上角的AI Assistant聊天图标。
 
-   If you do not see the chat icon, contact your administrator so they can enable the following features in the Admin Console:
+   如果您看不到聊天图标，请联系您的管理员，以便他们在Admin Console中启用以下功能：
 
-   * Reporting Tools: **[!UICONTROL AI Assistant: Product Knowledge]**
+   * 报告工具： **[!UICONTROL AI助手：产品知识]**
 
-   * Data View Tools: **[!UICONTROL Data Insights Agent]**
+   * 数据视图工具： **[!UICONTROL Data Insights Agent]**
 
-   For additional details, see [Manage access to Data Insights Agent in Customer Journey Analytics](#manage-access-to-data-insights-agent-in-customer-journey-analytics).
+   有关其他详细信息，请参阅[在Customer Journey Analytics中管理对Data Insights Agent的访问](#manage-access-to-data-insights-agent-in-customer-journey-analytics)。
 
    ![AI助手图标](/help/agents/images/cja-agent/ai-asst-icon.png)
 
-6. In the **[!UICONTROL Ask about Customer Journey Analytics]** dialog at the bottom of the page, ask a data visualization question using Data Insights Agent.
+6. 在页面底部的&#x200B;**[!UICONTROL 关于Customer Journey Analytics]**&#x200B;对话框中，使用Data Insights Agent提出数据可视化问题。
 
-   For more information, see the following examples.
+   有关更多信息，请参阅以下示例。
 
 ### 示例 1
 
-For example, let&#39;s say you are interested in the orders your business received in July.
+例如，假设您对您的企业在7月份收到的订单感兴趣。
 
-**Prompt:** Enter *&quot;Trend orders in July.&quot;*
+**提示：**&#x200B;输入&#x200B;*“7月份的趋势订单”。*
 
-![AI prompt](/help/agents/images/cja-agent/ai-asst-prompt1.png)
+![AI提示](/help/agents/images/cja-agent/ai-asst-prompt1.png)
 
-**Response:** Data Insights Agent gathers insights by looking through the data in the data view, including the metrics and components. It translates the prompt into the right dimensions and metrics within the data range.
+**响应：** Data Insights Agent通过查看数据视图中的数据（包括量度和组件）来收集见解。 它会将提示转换为数据范围内正确的维度和量度。
 
-As you can see, it automatically generated a line graph and a freeform table to show orders for July.
+如您所见，它会自动生成一个线形图和一个自由格式表来显示7月的订单。
 
-![Answer to prompt - line graph and freeform table](/help/agents/images/cja-agent/ai-asst-result.png)
+![提示答案 — 折线图和自由格式表](/help/agents/images/cja-agent/ai-asst-result.png)
 
 ### 示例 2
 
-Next, you want to see how your revenue compares by region.
+接下来，您需要查看收入在不同地区的比较情况。
 
-**Prompt:** In the prompt window, enter *&quot;Show revenue by region.&quot;*
+**提示：**&#x200B;在提示窗口中，输入&#x200B;*“按地区显示收入”*。
 
-**Response:** Data Insights Agent intelligently understands that by &quot;region,&quot; you mean &quot;customer region.&quot; It produces a bar chart that best shows revenue by region:
+**响应：** Data Insights Agent智能地理解了“地区”的意思，即“客户地区”。 该报表会生成一个条形图，其中按地区显示收入的情况最好：
 
-![Bar chart](/help/agents/images/cja-agent/ai-asst-result2.png)
+![条形图](/help/agents/images/cja-agent/ai-asst-result2.png)
 
-### Example 3
+### 示例3
 
-Next, in addition to understanding revenue by region, you also want to see data for profit by region. Instead of repeating the previous prompt, you can ask Data Insights Agent to update the most recent visualization and freeform table.
+接下来，除了按地区了解收入之外，您还需要按地区查看利润数据。 您可以要求Data Insights Agent更新最新的可视化图表和自由格式表，而不是重复之前的提示。
 
-**Prompt:** In the prompt window, type *&quot;Add profit.&quot;*
+**提示：**&#x200B;在提示窗口中，键入&#x200B;*“添加利润”*。
 
-**Response:** The **[!UICONTROL Bar]** chart still provides the most concise answer, but the profit metric has been added as a column in the freeform table:
+**响应：** **[!UICONTROL 条形]**&#x200B;图表仍提供最简洁的答案，但利润指标已添加为自由格式表中的列：
 
-![Bar chart](/help/agents/images/cja-agent/ai-asst-result4.png)
+![条形图](/help/agents/images/cja-agent/ai-asst-result4.png)
 
-### Example 4
+### 示例4
 
-Finally, let&#39;s look at the revenue by product category.
+最后，我们来了解一下按产品类别划分的收入。
 
-**Prompt:** In the prompt window, enter *&quot;Proportion of revenue by product category.&quot;*
+**提示：**&#x200B;在提示窗口中，输入&#x200B;*“按产品类别列出的收入比例”。*
 
-**Response:** Again, Data Insights Agent picks the most appropriate visualization, in this case the **[!UICONTROL Donut]** visualization, to answer the question.
+**响应：**&#x200B;同样，Data Insights Agent选择最合适的可视化图表（在本例中为&#x200B;**[!UICONTROL 圆环图]**&#x200B;可视化图表）来回答问题。
 
 ![圆环图](/help/agents/images/cja-agent/ai-asst-result3.png)
 
-## Access Data Insights Agent across Experience Cloud applications
+## 跨Experience Cloud应用程序访问Data Insights Agent
 
-Adobe Experience Platform Agent Orchestrator allows you to access the functionality of Data Insights Agent in multiple Adobe Experience Cloud applications, such as Adobe Journey Optimizer and Real-Time CDP.
+Adobe Experience Platform Agent Orchestrator允许您在多个Adobe Experience Cloud应用程序（如Data Insights Agent和Real-Time CDP）中访问Adobe Journey Optimizer的功能。
 
-Agent Orchestrator interprets your request, determines which specialized agents are needed, and orchestrates them to deliver the right response. It keeps track of context across multi-turn interactions, so you can build on prior queries naturally.
+Agent Orchestrator解释您的请求，确定需要哪些专业代理，并协调他们提供正确的响应。 它可以跨多轮交互跟踪上下文，因此您可以自然地基于先前的查询进行构建。
 
-For more information, see [Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/cn/products/experience-platform/agent-orchestrator.html).
+有关详细信息，请参阅[Adobe Experience Platform Agent Orchestrator](https://business.adobe.com/cn/products/experience-platform/agent-orchestrator.html)。
 
-## Example data visualization prompts
+## 示例数据可视化提示
 
-The following are some examples of common prompts and the visualizations used by Data Insights Agent to respond to those prompts.
+以下是常见提示的一些示例以及Data Insights Agent用于响应这些提示的可视化图表。
 
-| 示例提示 | Expected visualization |
+| 示例提示 | 预期可视化图表 |
 | --- | --- |
-| Show me profits in [Month] | 线形图<p>Asking for a trend or metric within a certain time range by default returns a line visualization. |
-| Trend orders in [Month] | 线形图 |
-| Show revenue by region in [Month] | 条形图 |
+| 显示[个月]的利润 | 线形图<p>默认情况下，在特定时间范围内请求趋势或量度会返回折线图可视化图表。 |
+| [月]的订单趋势 | 线形图 |
+| 在[月]内按地区显示收入 | 条形图 |
 | 按产品类别分列的收入份额 | 圆环图 |
 | 按星期几的订单，从1月到5月 | 条形图 |
 | 按性别显示从3月到6月的订单 | 条形图 |
@@ -276,7 +276,7 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 * **平衡您需要的组件**。 请勿将数据集的所有字段作为量度或维度组件添加到数据视图，尤其是您不希望在分析中使用的那些字段。 另一方面，不要严格限制自己只能使用预计分析所需的字段。 数据视图过于有限，限制了分析和Data Insights Agent功能的灵活性。
 * **始终使用友好的显示名称**。 确保您在数据视图中定义的所有字段（作为量度或维度组件）都具有友好的组件名称。 使用友好名称重命名字段的过程与来自Adobe Analytics源连接器数据集的字段特别相关。 这些字段通常具有不友好的不可识别名称，如`eVar41`或`prop25`。
 * **使用特殊名称**。 当您在数据视图中将同一字段用作量度和维度组件时，独特名称特别相关。 或者，当您在同一类型的多个组件（例如，在两个不同的量度中）中使用字段时，每个组件都具有不同的组件设置。
-* **使用组件命名约定**。 您可以使用组件命名惯例对组件进行分组。 例如，**[!UICONTROL 订单|产品]**&#x200B;和&#x200B;**[!UICONTROL 订单|客户]**&#x200B;可以区分数据中可能存在的不同订单量度。
+* **使用组件命名约定**。 您可以使用组件命名惯例对组件进行分组。 例如，**[!UICONTROL 订单 |产品]**&#x200B;和&#x200B;**[!UICONTROL 订单 |客户]**&#x200B;可以区分数据中可能存在的不同订单量度。
 * **使用数据字典**。 在数据字典中添加组件的描述和其他相关数据。 Data Insights Agent当前不使用数据字典中的描述和标记，但将来可能会使用。
 * **使用批准的计算指标**。 同意一个流程，仅将批准的计算指标用作数据视图中的组件，并避免使用实验性的计算指标。
 * **共享所需的区段**。 确保共享区段并显示Data Insights Agent提示所需的区段。
@@ -289,3 +289,4 @@ Following the thumbs up or thumbs down selection, please make a selection for th
 >[数据字典](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/data-dictionary/data-dictionary-overview)
 >[批准计算量度](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/cja-calcmetrics/cm-workflow/cm-approving)
 >[共享区段](https://experienceleague.adobe.com/zh-hans/docs/analytics-platform/using/cja-components/segments/seg-share)
+
