@@ -4,11 +4,24 @@ title: 在Customer Journey Analytics中使用Data Insights Agent可视化数据
 role: User, Admin
 solution: Customer Journey Analytics
 TQID: https://experienceleague.adobe.com/UtKIDlN2x7MOAiHNRRQ8b5OO4fIwzV74r1fnfMwblcQ
-product_v2: id: e98b7246-966c-4318-9e95-cad2f7a17dc7
-feature_v2: id: b743a5d9-dc51-41ed-8b2f-86a1f8de430fid: c73c4213-d623-4126-81f4-80b42e5e2656id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
-subfeature_v2: id: b1f5d324-a668-4e51-a59b-6fc0862d7310id: bc7a5a86-1a70-451f-985c-037b65f091d1id: df7fb1db-aa1b-4314-98ac-59dbfcc3044fid: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: e98b7246-966c-4318-9e95-cad2f7a17dc7
+feature_v2:
+  - id: b743a5d9-dc51-41ed-8b2f-86a1f8de430f
+  - id: c73c4213-d623-4126-81f4-80b42e5e2656
+  - id: ce577701-5b9e-4fe4-8fa3-4eedea976da4
+subfeature_v2:
+  - id: b1f5d324-a668-4e51-a59b-6fc0862d7310
+  - id: bc7a5a86-1a70-451f-985c-037b65f091d1
+  - id: df7fb1db-aa1b-4314-98ac-59dbfcc3044f
+  - id: e44e560d-5e5c-4a5f-9a87-eb8adbb817af
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 03b165bd63f21e4f92fecd26cd05605ab027fde3
 workflow-type: tm+mt
 source-wordcount: 2690
@@ -84,7 +97,7 @@ AI助手中的![Data Insights Agent](/help/agents/images/cja-agent/cja-ai-asst-d
   >
   >启用数据视图时，请考虑以下事项：
   >* 每个IMS组织最多可启用50个数据视图。 如果您在给定组织的所有产品配置文件中启用了超过50个数据视图，Data Insights Agent将使用50个最常用的数据视图。
-  >  您可以使用数据视图](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views)中Data Insights Agent列上的[信息查看IMS组织中为Data Insights Agent启用的数据视图数量。
+  >  您可以使用数据视图[&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/manage-dataviews#manage-data-views)中Data Insights Agent列上的信息查看IMS组织中为Data Insights Agent启用的数据视图数量。
   >* 在启用数据视图的同一天，Data Insights Agent可以引用包含的数据视图。
 
   要为Data Insights Agent启用数据视图，请执行以下操作：
