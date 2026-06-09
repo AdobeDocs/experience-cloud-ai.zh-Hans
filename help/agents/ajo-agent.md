@@ -53,7 +53,7 @@ Journey Agent包含四个主要待完成任务：
 - **渠道内容创建**：使用AI支持的内容生成功能生成、编辑和管理历程的渠道特定内容（电子邮件、推送、短信）
 - **历程分析**：分析历程、检测问题、揭示见解并优化客户参与
 
-此外，**历程模拟**&#x200B;是Journey Optimizer的一项功能，其中包括[历程模拟](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)，这是一项产品内代理技能，具有非对话性，并具有三项功能：
+此外，**历程模拟**&#x200B;是Journey Optimizer的一项功能，其中包括[历程模拟](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs)，这是一项产品内代理技能，具有非对话性，并具有三项功能：
 
 - 生成模拟用户
 - 生成事件值
@@ -283,7 +283,7 @@ Journey Agent包含四个主要待完成任务：
 
 Journey Agent将使Journey Optimizer用户能够使用自然语言界面分析和优化历程。 借助Journey Agent，从业者可以快速识别和解决计划和/或受众冲突，检测历程中的用户放弃点并提供见解或建议。 它使从业者能够做出数据驱动的决策、提高客户参与度，并简化历程编排。
 
-在此[概述](https://experienceleague.adobe.com/en/slides/journey-agent-overview)中了解更多信息并快速发现代理。
+在此[概述](https://experienceleague.adobe.com/zh-hans/slides/journey-agent-overview)中了解更多信息并快速发现代理。
 
 >[!AVAILABILITY]
 >
@@ -503,4 +503,4 @@ AJO代理的![示例](./images/ajo-agent/ajo-agent-sample.png)
 
 模拟可能不支持测试模式或实时历程支持的每个活动、渠道或集成，并且行为可能会随着功能成熟而更改。
 
-➡️在Journey Optimizer文档中了解有关[模拟限制](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations)的更多信息。
+➡️在Journey Optimizer文档中了解有关[模拟限制](https://experienceleague.adobe.com/zh-hans/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs#limitations)的更多信息。
