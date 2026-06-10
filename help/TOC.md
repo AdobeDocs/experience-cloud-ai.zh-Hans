@@ -1,14 +1,14 @@
 ---
 audience: user
-user-guide-title: Adobe Experience Cloud的人工智能助手
+user-guide-title: Adobe Experience Cloud中的AI助手
 user-guide-description: 了解如何使用 AI 助手通过 Adobe Experience Platform 和 Real-Time Customer Data Platform 加快工作流程。
 description: 了解 Experience Cloud 中的 AI 助手。 使用 Experience Cloud 中的 AI 提高您的产品知识并获得运营洞察。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: ba2c78d3c5e48155f6b2290ad59261a161fb107d
+source-git-commit: 7f87755d70bde2399f5c747479891ae8a36a3bf2
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 58%
+source-wordcount: '105'
+ht-degree: 57%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 58%
    - [产品支持代理](./agents/product-support.md)
    - [Adobe Marketing Agent for Microsoft 365 Copilot](./agents/ama-ms.md)
    - [代理试用版](./agents/trial.md)
+   - [通知代理](./agents/notifications.md)
    - 数据工程 {#data-engineering}
       - {hide-from-toc}[Data Engineering Agent](./agents/data-engineering/overview.md)
 - MCP {#mcp}
