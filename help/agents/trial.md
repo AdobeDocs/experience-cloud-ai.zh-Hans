@@ -12,7 +12,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: e463f08590d0d44d286e3ce69e57607d35e74489
+source-git-commit: 3f67508410c0a41a8edb6f22f20f4c25709df9f7
 workflow-type: tm+mt
 source-wordcount: 1243
 ht-degree: 4%
@@ -40,6 +40,8 @@ Adobe将自行决定您的试用资格。 目前拥有或以前拥有Adobe Exper
 
 合格客户将获得最多10,000个人工智能积分的初始一次性权利，用于在[人工智能积分消耗表](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/ai-credit-consumption)中列出的任何工作组合（取决于您对Experience Cloud应用程序的现有许可证）。 您可以使用Adobe Experience Platform UI中的许可证使用情况仪表板跟踪您的AI积分。 有关详细信息，请阅读[许可证使用情况仪表板文档](https://experienceleague.adobe.com/zh-hans/docs/experience-platform/dashboards/guides/license-usage)。
 
+利用Agentic AI监控仪表板，可清楚了解您的组织是如何采用和使用Agentic AI的。 作为授权用户，您可以轻松跟踪参与、收集反馈、监控AI信用使用情况并审查关键量度。 利用这些见解发现优化机会并支持您的治理和采用工作。 要了解更多信息，请访问[代理AI使用监视指南](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/monitoring)。
+
 >[!IMPORTANT]
 >
 >AI积分仅存在于试用期间，如果您在使用完整的10,000个AI积分权利之前许可额外的AI积分，则&#x200B;**不滚动**。
@@ -51,8 +53,6 @@ Adobe将自行决定您的试用资格。 目前拥有或以前拥有Adobe Exper
 作为试用的一部分，符合条件的客户的用户将可以访问AI助手和代理，因此无需采取任何操作。 Experience Platform代理受用户输入和监督的指导。 代理还遵循以前定义的产品级访问控制，因此用户只能在适用的基础Experience Cloud产品中执行他们有权执行的作业或操作。 如果您希望选择退出访问这些代理功能并禁用试用版访问，请向[aep-agents-trial-support@adobe.com](mailto:aep-agents-trial-support@adobe.com)发送请求。
 
 获得访问权限后，导航到Adobe Experience Cloud主页以开始使用AI助手。 您可以使用[发现提示](../ai-assistant/ai-assistant-ui.md#discovery-prompts)来查看提示和常用工作流的建议。 使用此功能有助于加快您使用AI Assistant的入门速度。 此外，请阅读[提示库](../ai-assistant/prompt-library.md)，以获取可以与其他代理一起使用的各种提示。 有关更全面的信息，请阅读[AI助手UI指南](../ai-assistant/ai-assistant-ui.md)。
-
-利用Agentic AI监控仪表板，可清楚了解您的组织是如何采用和使用Agentic AI的。 作为授权用户，您可以轻松跟踪参与、收集反馈、监控AI信用使用情况并审查关键量度。 利用这些见解发现优化机会并支持您的治理和采用工作。 要了解更多信息，请访问[代理AI使用监视指南](https://experienceleague.adobe.com/zh-hans/docs/core-services/interface/features/monitoring)。
 
 有关可用代理的信息，请阅读[Agent Orchestrator概述](agent-orchestrator.md)。
 
