@@ -5,10 +5,10 @@ user-guide-description: 了解如何使用 AI 助手通过 Adobe Experience Plat
 description: 了解 Experience Cloud 中的 AI 助手。 使用 Experience Cloud 中的 AI 提高您的产品知识并获得运营洞察。
 solution: Experience Cloud
 role: Admin,User,Developer,Leader
-source-git-commit: 047d5ff2aacdc0e74be6757c996fc73006432e66
+source-git-commit: f82d4d72fb14600aa5cb5113e47cbb08c1989076
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 53%
+source-wordcount: '119'
+ht-degree: 50%
 
 ---
 
@@ -39,3 +39,4 @@ ht-degree: 53%
    - [REAL-TIME CDP MCP](./mcp/rtcdp-mcp.md)
 - 同事 {#coworker}
    - {hide-from-toc}[在游乐场中的同事聊天](./coworker/playground-coworker-chat.md)
+   - {hide-from-toc}[验证AA到CJA的迁移数据](./coworker/data-validation-aa-cja.md)
