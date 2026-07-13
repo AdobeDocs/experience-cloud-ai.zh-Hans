@@ -1,15 +1,19 @@
 ---
 title: 从Adobe Analytics升级到Customer Journey Analytics时与同事验证数据
-description: 了解Analytics管理员如何在迁移期间使用CX Enterprise Co-worker数据验证技能比较Adobe Analytics和Customer Journey Analytics数据。
+description: 了解Analytics管理员如何在升级期间使用CX Enterprise Co-worker数据验证技能比较Adobe Analytics和Customer Journey Analytics数据。
 hide: true
-source-git-commit: 1d0c3b73a3a9f18440920a19caa4645243e73730
+source-git-commit: 1a93f2afc1e8d33f8d42b24018758d51916dd61d
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1542'
 ht-degree: 0%
 
 ---
 
 # 从Adobe Analytics升级到Customer Journey Analytics时与同事验证数据
+
+>[!NOTE]
+> 
+>只有在完成所有先前的升级步骤后，才应执行本页上的步骤。 您可以执行推荐的升级步骤（为大多数组织推荐），也可以使用《Customer Journey Analytics升级指南》执行为您的组织动态生成的步骤。 <ul><li>**建议的升级步骤** （建议大多数组织使用）<p>一组导致实现理想Customer Journey Analytics的步骤。</p><p>有关详细信息，请参阅[从Adobe Analytics升级到Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations)。</p></li><li>**Customer Journey Analytics升级指南** （根据贵组织的特定需求定制的自定义步骤）<p>提供了新的升级指南，可动态生成针对贵组织和独特环境定制的升级步骤。</p><p>要从Customer Journey Analytics访问指南，请选择&#x200B;**[!UICONTROL Workspace]**&#x200B;选项卡，然后在左侧面板中选择&#x200B;**[!UICONTROL 升级到Customer Journey Analytics]**。 按照屏幕上的说明操作。</p></li></ul>
 
 CX Enterprise Co-worker包括验证技能，允许您在从Adobe Analytics升级到Customer Journey Analytics时验证数据。 数据验证在单个会话中完成。
 
@@ -23,13 +27,15 @@ CX Enterprise Co-worker包括验证技能，允许您在从Adobe Analytics升级
 
 ## 开始之前
 
+
+
 要在升级过程中验证数据，您需要：
 
 * 要验证的Adobe Analytics报表包。
 
 * 包含相同数据的Customer Journey Analytics数据视图。
 
-您无需提前知道如何构建实施。 该技能会自动检测数据是通过Analytics Source Connector映射，还是通过两个并排实施映射，因此您无需自己提供该上下文。
+您无需知道如何构建实施。 该技能会自动检测您的Customer Journey Analytics实施是使用Analytics Source Connector，还是使用Experience Platform Web SDK的新实施。
 
 ## 启动验证会话
 
@@ -37,7 +43,7 @@ CX Enterprise Co-worker包括验证技能，允许您在从Adobe Analytics升级
 
 1. 选择&#x200B;[!UICONTROL **新建聊天**]。
 
-1. 在文本字段中，提示代理验证从Adobe Analytics到Customer Journey Analytics的迁移：
+1. 在文本字段中，提示代理验证从Adobe Analytics到Customer Journey Analytics的升级：
 
    **提示**
 
@@ -71,9 +77,7 @@ CX Enterprise Co-worker包括验证技能，允许您在从Adobe Analytics升级
    |---------|----------|
    | [!UICONTROL **单个量度比较**] | 比较Adobe Analytics和Customer Journey Analytics之间某个量度的趋势。 当您希望快速检查特定量度（如页面查看次数或访问次数）时，可使用此选项。 |
    | [!UICONTROL **单个维度比较**] | 在Adobe Analytics和Customer Journey Analytics之间比较单个维度的细分。 当您怀疑特定维度的映射或分类差异时，请使用此选项。 |
-   | [!UICONTROL **完整的报表包和数据视图审核**] | 在一次运行中比较最多40个量度和10个维度。 当您希望全面了解迁移的整体运行状况时，可使用此选项。 |
-
-
+   | [!UICONTROL **完整的报表包和数据视图审核**] | 在单个运行中将多达40个Adobe Analytics指标和20个维度与Customer Journey Analytics对应指标进行比较。 当您希望全面了解升级的整体运行状况时，请使用此选项。 |
 
 1. 继续下面的部分，[审阅分析](#review-the-analysis)。
 
@@ -122,7 +126,7 @@ CX Enterprise Co-worker包括验证技能，允许您在从Adobe Analytics升级
 
    >[!NOTE]
    >
-   >有些差异是预期会出现的，并不表示您的迁移存在问题。
+   >有些差异是预期会出现的，并不表示升级到Customer Journey Analytics时出现问题。
 
    常见问题包括：
 
@@ -136,5 +140,7 @@ CX Enterprise Co-worker包括验证技能，允许您在从Adobe Analytics升级
 
 1. 验证建议的操作是否有效，然后在Adobe Experience Platform或Adobe Analytics中解析它们。
 
-1. （可选）通过分析其他量度、分析其他维度或运行另一个最多包含40个量度和10个维度的报表来继续您的分析，如[选择要验证的数据](#choose-the-data-to-validate)中所述。 您无需重复设置过程即可执行此操作；您的公司、报表包和数据视图选择将在整个对话中持续进行。
+1. （可选）通过分析其他量度、分析其他维度或运行另一个最多包含40个量度和20个维度的报表来继续您的分析，如[选择要验证的数据](#choose-the-data-to-validate)中所述。 您无需重复设置过程即可执行此操作；您的公司、报表包和数据视图选择将在整个对话中持续进行。
+
+1. 继续执行Customer Journey Analytics升级指南中的[建议的升级步骤](https://experienceleague.adobe.com/en/docs/analytics-platform/using/compare-aa-cja/upgrade-to-cja/cja-upgrade-recommendations#recommended-upgrade-steps-for-most-organizations)或动态生成的升级步骤。 要从Customer Journey Analytics访问指南，请选择&#x200B;**[!UICONTROL Workspace]**&#x200B;选项卡，然后在左侧面板中选择&#x200B;**[!UICONTROL 升级到Customer Journey Analytics]**。 按照屏幕上的说明操作。
 
