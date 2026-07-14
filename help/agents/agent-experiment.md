@@ -41,7 +41,7 @@ TQID: https://experienceleague.adobe.com/ARh16ylmUDrp%2D%2D%2Dg8KuYNyewIv54IQ53p
 
 * **管理试验元数据**：此权限允许您使用Experimentation Agent直接在AI助手中创建新试验。
 
-➡️ [请参阅Journey Optimizer Experimentation Accelerator文档以了解详情](https://experienceleague.adobe.com/en/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
+➡️ [请参阅Journey Optimizer Experimentation Accelerator文档以了解详情](https://experienceleague.adobe.com/zh-hans/docs/experimentation-accelerator/using/get-started/experiment-accelerator-access)
 
 作为Experimentation Accelerator功能的一部分，代理提供：
 
