@@ -1,7 +1,7 @@
 ---
-title: CX Enterprise MCP中的Adobe Experience Platform工具
-description: 了解可通过CX Enterprise MCP获得哪些Adobe Experience Platform工具。
-source-git-commit: 152079b15dc0dfd1dbe389fe2d18be0780b5bf71
+title: CX Co-worker Gateway中的Adobe Experience Platform工具
+description: 通过CX Co-worker Gateway了解哪些Adobe Experience Platform工具可用。
+source-git-commit: adb72f43865bee5b2b151a5a75994c5f3939c2d9
 workflow-type: tm+mt
 source-wordcount: '1372'
 ht-degree: 8%
@@ -9,13 +9,13 @@ ht-degree: 8%
 ---
 
 
-# Adobe CX Enterprise MCP中的Adobe Experience Platform工具 {#aep-mcp}
+# Adobe CX Co-worker Gateway中的Adobe Experience Platform工具 {#aep-mcp}
 
-您可以使用Adobe Experience Platform产品工具从与MCP兼容的客户端检查架构、数据集、数据管理配置、查询服务资源和审核事件。 当您的组织已启用，并且您的用户帐户具有所需的Experience Platform权限时，可以通过[Adobe CX Enterprise MCP](overview.md)使用这些工具。
+您可以使用Adobe Experience Platform产品工具从与MCP兼容的客户端检查架构、数据集、数据管理配置、查询服务资源和审核事件。 当您的组织已启用，并且您的用户帐户具有所需的Experience Platform权限时，可以通过[Adobe CX Co-worker Gateway](overview.md)使用这些工具。
 
 >[!AVAILABILITY]
 >
->Experience Platform产品工具位于Beta中。 访问仅通过邀请进行，并且需要Adobe组织启用。 请参阅[访问CX Enterprise MCP工具](access.md)。
+>Experience Platform产品工具位于Beta中。 访问仅通过邀请进行，并且需要Adobe组织启用。 请参阅[访问CX Co-worker网关工具](access.md)。
 
 ## 概要
 
@@ -35,7 +35,7 @@ ht-degree: 8%
 
 ### search_allowed_ip_ranges
 
-**资源：**&#x200B;数据Distiller身份验证· IP范围
+**资源：**数据Distiller身份验证· IP范围
 **状态：**&#x200B;活动
 
 在当前沙盒中为查询服务检索所有配置的IP访问限制。 返回组织ID和允许的IP范围列表。 仅适用于具有Data Distiller加载项的客户。
@@ -46,7 +46,7 @@ ht-degree: 8%
 
 ### search_audit
 
-**资源：**&#x200B;审核查询·审核事件
+**资源：**审核查询·审核事件
 **状态：**&#x200B;活动
 
 列出跨Experience Platform服务的用户活动带有时间戳的记录。 返回操作类型、用户电子邮件、资产信息和事件状态。 使用`asset_type`和`action`缩小结果范围。 未指定时间范围时，默认为最近7天。 限于过去90天的最近1000条记录和事件。
@@ -70,7 +70,7 @@ ht-degree: 8%
 
 ### search_dataset
 
-**资源：**&#x200B;目录API ·数据集、批次
+**资源：**目录API ·数据集、批次
 **状态：**&#x200B;活动
 
 Experience Platform目录服务的统一调度工具。 查询数据集元数据（架构引用、标记、创建信息）或批量摄取记录（状态、量度、文件列表）。 使用`dataset/list`发现数据集，`batch/list`检查摄取运行状况，以及`batch/list_files`或`batch/get_meta_files`检查特定批次内容。 所有操作均为只读。
@@ -101,7 +101,7 @@ Experience Platform目录服务的统一调度工具。 查询数据集元数据
 
 ### search_class_relations
 
-**资源：**&#x200B;类关系·静态YAML索引
+**资源：**类关系·静态YAML索引
 **状态：**&#x200B;活动
 
 使用静态`class_relations_v1.yaml`索引按名称搜索Experience Platform业务类关系。 未调用Experience Platform API。 接受单个术语或以逗号分隔的术语；每个术语使用部分令牌匹配根据类名进行匹配。 返回具有正向关系（每个类指向的内容）和反向关系（哪些类指向它）的匹配类。 在构建查询、数据流或架构组合之前，请使用此项了解实体关系。
@@ -117,7 +117,7 @@ Experience Platform目录服务的统一调度工具。 查询数据集元数据
 
 ### search_data_access
 
-**资源：**&#x200B;数据访问API ·失败的批处理
+**资源：**数据访问API ·失败的批处理
 **状态：**&#x200B;活动
 
 从失败的Experience Platform数据摄取批次访问文件。 使用`failed_batch/list_failed`列出属于失败批次的文件以进行故障诊断。 所有操作都需要批次ID。 注意： `file/get`和`dataset/preview`已禁用，因为它们公开实际记录数据。 所有操作均为只读。
@@ -138,7 +138,7 @@ Experience Platform目录服务的统一调度工具。 查询数据集元数据
 
 ### search_data_lake
 
-**资源：**&#x200B;数据湖API ·数据集，批次
+**资源：**数据湖API ·数据集，批次
 **状态：**&#x200B;活动
 
 检查数据湖层中的数据集并批处理元数据。 使用`get`表示完整的元数据，使用`get_size`表示存储和摄取大小量度，使用`list_failed`监视时间范围内的摄取失败。 如果未为`list_failed`提供时间范围，则默认为过去7天。 所有操作均为只读，需要资源ID。
@@ -159,7 +159,7 @@ Experience Platform目录服务的统一调度工具。 查询数据集元数据
 
 ### search_dule
 
-**资源：**&#x200B;数据管理·标签、策略、marketing_actions
+**资源：**数据管理·标签、策略、marketing_actions
 **状态：**&#x200B;活动
 
 查询策略服务API，以获取数据使用标签、策略和营销操作。 使用`marketing_action/evaluate`测试对具有特定标签的数据的营销操作是否会违反任何治理策略。 所有操作均为只读。
@@ -184,7 +184,7 @@ Experience Platform目录服务的统一调度工具。 查询数据集元数据
 
 ### search_query_service
 
-**资源：**&#x200B;查询服务·查询、模板、计划、计划运行、连接、警报订阅
+**资源：**查询服务·查询、模板、计划、计划运行、连接、警报订阅
 **状态：**&#x200B;活动
 
 查询服务资源的统一工具。 列出和检索临时查询、保存的SQL模板、计划的查询及其运行、交互式连接参数（用于psql/JDBC客户端）和警报订阅。 对于查询列表，默认为`isService==false,isParentLevel==true`以过滤掉内部流量。 所有操作均为只读。
