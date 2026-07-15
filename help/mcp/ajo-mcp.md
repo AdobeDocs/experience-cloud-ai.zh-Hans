@@ -1,20 +1,20 @@
 ---
-title: CX Enterprise MCP中的Adobe Journey Optimizer工具
-description: 了解通过CX Enterprise MCP可以使用哪些Adobe Journey Optimizer工具。
-source-git-commit: 6c73b4d2e452a82597565d71279df2dba605a977
+title: CX Co-worker Gateway中的Adobe Journey Optimizer工具
+description: 通过CX Co-worker Gateway了解哪些Adobe Journey Optimizer工具可用。
+source-git-commit: adb72f43865bee5b2b151a5a75994c5f3939c2d9
 workflow-type: tm+mt
 source-wordcount: '534'
 ht-degree: 3%
 
 ---
 
-# CX Enterprise MCP中的Adobe Journey Optimizer工具 {#ajo-mcp}
+# CX Co-worker Gateway中的Adobe Journey Optimizer工具 {#ajo-mcp}
 
-使用Adobe Journey Optimizer产品工具从与MCP兼容的客户端检查活动和渠道配置。 当您的组织已启用，并且您的用户帐户具有所需的Journey Optimizer权限时，可以通过[CX Enterprise MCP](overview.md)使用这些工具。
+使用Adobe Journey Optimizer产品工具从与MCP兼容的客户端检查活动和渠道配置。 当您的组织已启用，并且您的用户帐户具有所需的Journey Optimizer权限时，可以通过[CX Co-worker Gateway](overview.md)使用这些工具。
 
 >[!AVAILABILITY]
 >
->Journey Optimizer产品工具位于Beta中。 访问仅通过邀请进行，并且需要Adobe组织启用。 请参阅[访问CX Enterprise MCP工具](access.md)。
+>Journey Optimizer产品工具位于Beta中。 访问仅通过邀请进行，并且需要Adobe组织启用。 请参阅[访问CX Co-worker网关工具](access.md)。
 
 ## 主要功能 {#mcp-capabilities}
 

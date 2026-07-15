@@ -1,26 +1,26 @@
 ---
-title: 访问CX Enterprise MCP工具
-description: 在使用Adobe CX Enterprise MCP工具之前，请确认产品可用性、组织启用和权限。
-source-git-commit: 0a810c9d5b7718a10623fbe99c1c2e0b0c26c5f2
+title: 访问CX Co-worker Gateway工具
+description: 在使用Adobe CX Co-worker Gateway工具之前，请确认产品可用性、组织启用和权限。
+source-git-commit: 9f654bc1f7282cad51ef54b86167dbea1757364a
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '556'
 ht-degree: 3%
 
 ---
 
-# 访问CX Enterprise MCP工具 {#mcp-access}
+# 访问CX Co-worker Gateway工具 {#mcp-access}
 
 Adobe CX Enterprise通过单个MCP公开产品工具。 访问权由产品工具评估：必须为相关的产品工具启用Adobe组织，并且您的用户帐户必须具有查看或更改这些工具公开的产品数据所需的产品权限。
 
 >[!IMPORTANT]
 >
->在使用CX Enterprise MCP工具之前，必须启用Adobe组织。 如果贵组织还没有访问权限，请联系您的Adobe客户团队以请求对贵组织进行启用。
+>在使用CX Co-worker Gateway工具之前，必须启用Adobe组织。 如果贵组织还没有访问权限，请联系您的Adobe客户团队以请求对贵组织进行启用。
 
 ## 访问要求 {#mcp-requirements}
 
 
 | 产品工具 | 可用性 | 访问要求 |
-| -------------------------- | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --- | --- | --- |
 | Real-Time CDP | Beta | 有效的Real-Time CDP许可证、Adobe组织的Beta支持，以及查看您查询的受众、目标、源、身份和激活资源的权限。 |
 | Experience Platform | Beta | 有效的Experience Platform许可证、Adobe组织的Beta支持，以及查看您查询的架构、数据集、治理、查询服务、审核和沙盒资源的权限。 |
 | Journey Optimizer | Beta | 有效的Journey Optimizer许可证、Adobe组织的Beta支持，以及查看活动和渠道配置的权限。 |
@@ -35,7 +35,7 @@ Adobe CX Enterprise通过单个MCP公开产品工具。 访问权由产品工具
 
 ## 请求访问 {#mcp-request}
 
-对于Beta或有限版本的产品工具，请联系您的Adobe客户代表，并指定要使用的Adobe for CX Enterprise MCP产品工具。 您的代表可以协调产品启用，并在您的Adobe组织准备好时进行确认。
+对于Beta或限量版产品工具，请联系您的Adobe客户代表，并指定要使用的Adobe for CX Co-worker Gateway产品工具。 您的代表可以协调产品启用，并在您的Adobe组织准备好时进行确认。
 
 对于使用&#x200B;**MCP访问**&#x200B;权限项的常用产品工具，请要求系统或产品管理员将您的帐户添加到包含MCP访问权限的产品配置文件中。
 
@@ -58,4 +58,4 @@ Adobe CX Enterprise通过单个MCP公开产品工具。 访问权由产品工具
 - 您有权访问支持的MCP客户端，如[!DNL Claude]、[!DNL ChatGPT]、[!DNL Cursor]、[!DNL Claude Code]、[!DNL Codex]或[!DNL VS Code]。
 - 对于企业安装，您或同事可以在MCP客户端的组织设置中管理连接器或自定义应用程序。
 
-下一步： [安装Adobe for CX Enterprise MCP](install.md)。
+下一步： [安装Adobe CX Co-worker网关](install.md)。

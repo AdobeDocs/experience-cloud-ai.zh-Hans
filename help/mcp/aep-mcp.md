@@ -1,7 +1,7 @@
 ---
-title: CX Enterprise MCP中的Adobe Experience Platform工具
-description: 了解可通过CX Enterprise MCP获得哪些Adobe Experience Platform工具。
-source-git-commit: 152079b15dc0dfd1dbe389fe2d18be0780b5bf71
+title: CX Co-worker Gateway中的Adobe Experience Platform工具
+description: 通过CX Co-worker Gateway了解哪些Adobe Experience Platform工具可用。
+source-git-commit: adb72f43865bee5b2b151a5a75994c5f3939c2d9
 workflow-type: tm+mt
 source-wordcount: '1372'
 ht-degree: 8%
@@ -9,13 +9,13 @@ ht-degree: 8%
 ---
 
 
-# Adobe CX Enterprise MCP中的Adobe Experience Platform工具 {#aep-mcp}
+# Adobe CX Co-worker Gateway中的Adobe Experience Platform工具 {#aep-mcp}
 
-您可以使用Adobe Experience Platform产品工具从与MCP兼容的客户端检查架构、数据集、数据管理配置、查询服务资源和审核事件。 当您的组织已启用，并且您的用户帐户具有所需的Experience Platform权限时，可以通过[Adobe CX Enterprise MCP](overview.md)使用这些工具。
+您可以使用Adobe Experience Platform产品工具从与MCP兼容的客户端检查架构、数据集、数据管理配置、查询服务资源和审核事件。 当您的组织已启用，并且您的用户帐户具有所需的Experience Platform权限时，可以通过[Adobe CX Co-worker Gateway](overview.md)使用这些工具。
 
 >[!AVAILABILITY]
 >
->Experience Platform产品工具位于Beta中。 访问仅通过邀请进行，并且需要Adobe组织启用。 请参阅[访问CX Enterprise MCP工具](access.md)。
+>Experience Platform产品工具位于Beta中。 访问仅通过邀请进行，并且需要Adobe组织启用。 请参阅[访问CX Co-worker网关工具](access.md)。
 
 ## 概要
 

@@ -1,20 +1,20 @@
 ---
 title: Real-Time CDP MCP (Beta)
 description: 了解如何使用MCP服务器将Adobe Real-Time CDP连接到MCP客户端。
-source-git-commit: 3e8651b12f4769a819ebb49ddca9d6a158f98e6d
+source-git-commit: adb72f43865bee5b2b151a5a75994c5f3939c2d9
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 3%
 
 ---
 
-# CX Enterprise MCP中的Real-Time CDP工具 {#rtcdp-mcp}
+# CX Co-worker Gateway中的Real-Time CDP工具 {#rtcdp-mcp}
 
-您可以使用Real-Time CDP MCP产品工具从与MCP兼容的客户端检查受众、目标、源、身份命名空间和激活运行状况。 在启用了您的组织并且您的用户帐户具有所需的Real-Time CDP权限时，可以通过统一的[CX Enterprise MCP网关](overview.md)使用这些工具。
+您可以使用Real-Time CDP MCP产品工具从与MCP兼容的客户端检查受众、目标、源、身份命名空间和激活运行状况。 在启用了您的组织并且您的用户帐户具有所需的Real-Time CDP权限时，可以通过统一的[CX Co-worker Gateway网关](overview.md)使用这些工具。
 
 >[!AVAILABILITY]
 >
->Real-Time CDP产品工具位于Beta中。 访问仅通过邀请进行，并且需要Adobe组织启用。 请参阅[访问CX Enterprise MCP工具](access.md)。
+>Real-Time CDP产品工具位于Beta中。 访问仅通过邀请进行，并且需要Adobe组织启用。 请参阅[访问CX Co-worker网关工具](access.md)。
 
 ## 主要功能 {#mcp-capabilities}
 
